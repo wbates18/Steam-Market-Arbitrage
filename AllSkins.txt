@@ -1,0 +1,1022 @@
+?Cases
+!Chroma
+XM1014 | Quicksilver - Mil-Spec - 0:0.5
+SCAR-20 | Grotto - Mil-Spec - 0:0.5
+M249 | System Lock - Mil-Spec - 0:0.8
+XM1014 | Quicksilver - Mil-Spec - 0:0.5
+MP9 | Deadly Poison - Mil-Spec - 0:1
+Dual Berettas | Urban Shock - Restricted - 0:0.47
+Sawed-Off | Serenity - Restricted - 0:0.5
+MAC-10 | Malachite - Restricted - 0:0.5
+Desert Eagle | Naga - Restricted - 0:1
+P250 | Muertos - Classified - 0:0.6
+AK-47 | Cartel - Classified - 0:0.75
+M4A4 | 龍王 (Dragon King) - Classified - 0:0.75
+AWP | Man-o'-war - Covert - 0.1:0.2
+Galil AR | Chatterbox - Covert - 0.35:0.85
+!Chroma 2
+Negev | Man-o'-war - Mil-Spec - 0.1:0.2
+MP7 | Armor Core - Mil-Spec - 0:0.5
+Sawed-Off | Origami - Mil-Spec - 0:0.55
+P250 | Valence - Mil-Spec - 0:0.8
+Desert Eagle | Bronze Deco - Mil-Spec - 0:0.46
+AK-47 | Elite Build - Mil-Spec - 0:1
+UMP-45 | Grand Prix - Restricted - 0:0.5
+CZ75-Auto | Pole Position - Restricted - 0.25:0.35
+MAG-7 | Heat - Restricted - 0:1
+AWP | Worm God - Restricted - 0:0.45
+FAMAS | Djinn - Classified - 0:1
+Five-SeveN | Monkey Business - Classified - 0.1:0.9
+Galil AR | Eco - Classified - 0.1:0.85
+MAC-10 | Neon Rider - Covert - 0:0.45
+M4A1-S | Hyper Beast - Covert - 0:1
+!Chroma 3
+Sawed-Off | Fubar - Mil-Spec - 0.4:1
+P2000 | Oceanic - Mil-Spec - 0:0.6
+M249 | Spectre - Mil-Spec - 0:0.5
+Dual Berettas | Ventilators - Mil-Spec - 0:0.45
+G3SG1 | Orange Crash - Mil-Spec - 0:0.52
+SG 553 | Atlas - Mil-Spec - 0:0.81
+MP9 | Bioleak - Mil-Spec - 0:0.5
+CZ75-Auto | Red Astor - Restricted - 0:1
+Tec-9 | Re-Entry - Restricted - 0:0.43
+Galil AR | Firefight - Restricted - 0:1
+XM1014 | Black Tie - Restricted - 0:0.75
+SSG 08 | Ghost Crusader - Restricted - 0:1
+UMP-45 | Primal Saber - Classified - 0:0.77
+AUG | Fleet Flock - Classified - 0:1
+P250 | Asiimov - Classified - 0.1:1
+PP-Bizon | Judgement of Anubis - Covert - 0:0.5
+M4A1-S | Chantico's Fire - Covert - 0:0.99
+!Clutch Case
+XM1014 | Oxide Blaze - Mil-Spec - 0:0.7
+PP-Bizon | Night Riot - Mil-Spec - 0:0.8
+P2000 | Urban Hazard - Mil-Spec - 0:1
+Five-SeveN | Flame Test - Mil-Spec - 0:0.65
+SG 553 | Aloha - Mil-Spec - 0:0.55
+R8 Revolver | Grip - Mil-Spec - 0:1
+MP9 | Black Sand - Mil-Spec - 0:1
+Negev | Lionfish - Restricted - 0:0.55
+Nova | Wild Six - Restricted - 0:0.80
+MAG-7 | SWAG-7 - Restricted - 0:0.92
+UMP-45 | Arctic Wolf - Restricted - 0:0.8
+Glock-18 | Moonrise - Restricted - 0:0.65
+AUG | Stymphalian - Classified - 0:0.63
+AWP | Mortis - Classified - 0:0.64
+USP-S | Cortex - Classified - 0:1
+MP7 | Bloodsport - Covert - 0:0.65
+M4A4 | Neo-Noir - Covert - 0:0.9
+!CS:GO Weapon Case
+MP7 | Skulls - Mil-Spec - 0.1:0.26
+AUG | Wings - Mil-Spec - 0:0.14
+SG 553 | Ultraviolet - Mil-Spec - 0.06:0.8
+M4A1-S | Dark Water - Restricted - 0.1:0.26
+USP-S | Dark Water - Restricted - 0.1:0.26
+Glock-18 | Dragon Tattoo - Restricted - 0:0.08
+Desert Eagle | Hypnotic - Classified - 0:0.08
+AK-47 | Case Hardened - Classified - 0:1
+AWP | Lightning Strike - Covert - 0:0.08
+!CS:GO Weapon Case 2
+P250 | Hive - Mil-Spec - 0:0.3
+FAMAS | Hexane - Mil-Spec - 0:0.4
+Tec-9 | Blue Titanium - Mil-Spec - 0:0.04
+M4A1-S | Blood Tiger - Restricted - 0:0.3
+SCAR-20 | Crimson Web - Restricted - 0.06:0.8
+Dual Berettas | Hemoglobin - Restricted - 0:0.2
+Nova | Graphite - Restricted - 0:0.12
+Five-SeveN | Case Hardened - Restricted - 0:1
+MP9 | Hypnotic - Restricted - 0:0.08
+USP-S | Serum - Classified - 0:0.25
+P90 | Cold Blooded - Classified - 0:08
+SSG 08 | Blood in the Water - Covert - 0.06:0.2
+!CS:GO Weapon Case 3
+P2000 | Red FragCam - Mil-Spec - 0:0.7
+Dual Berettas | Panther - Mil-Spec - 0:0.58
+Glock-18 | Blue Fissure - Mil-Spec - 0:0.58
+CZ75-Auto | Crimson Web - Mil-Spec - 0.06:0.8
+USP-S | Stainless - Mil-Spec - 0:0.8
+Tec-9 | Titanium Bit - Restricted - 0:0.5
+Five-SeveN | Copper Galaxy - Restricted - 0:0.2
+CZ75-Auto | Tread Plate - Restricted - 0:0.5
+Desert Eagle | Heirloom - Restricted - 0:0.8
+CZ75-Auto | The Fuschia Is Now - Classified - 0:0.4
+P250 | Undertow - Classified - 0:0.6
+CZ75-Auto | Victoria - Covert - 0:0.75
+!Danger Zone Case
+Nova | Wood Fired - Mil-Spec - 0:0.75
+Sawed-Off | Black Sand - Mil-Spec - 0:0.9
+SG 553 | Danger Close - Mil-Spec - 0.02:0.8
+MP9 | Modest Threat - Mil-Spec - 0:0.75
+Tec-9 | Fubar - Mil-Spec - 0.14:1
+Glock-18 | Oxide Blaze - Mil-Spec - 0:0.85
+M4A4 | Magnesium - Mil-Spec - 0:1
+G3SG1 | Scavenger - Restricted - 0:0.65
+MAC-10 | Pipe Down - Restricted - 0:0.9
+Galil AR | Signal - Restricted - 0:0.5
+P250 | Nevermore - Restricted - 0:0.4
+USP-S | Flashback - Restricted - 0:0.5
+UMP-45 | Momentum - Classified - 0:0.5
+MP5-SD | Phosphor - Classified - 0:0.8
+Desert Eagle | Mecha Industries - Classified - 0:0.6
+AWP | Neo-Noir - Covert - 0:0.5
+AK-47 | Asiimov - Covert - 0.05:0.7
+!eSports 2013 Case
+FAMAS | Doomkitty - Mil-Spec - 0.08:0.22
+MAG-7 | Memento - Mil-Spec - 0.02:0.18
+M4A4 | Faded Zebra - Mil-Spec - 0.06:0.8
+Sawed-Off | Orange DDPAT - Restricted - 0.06:0.8
+P250 | Splash - Restricted - 0.06:0.18
+Galil AR | Orange DDPAT - Restricted - 0.06:0.8
+AWP | BOOM - Classified - 0.06:0.28
+AK-47 | Red Laminate - Classified - 0.06:0.8
+P90 | Death by Kitty - Covert - 0.08:0.32
+!eSports 2013 Winter Case
+Nova | Ghost Camo - Mil-Spec - 0:0.4
+PP-Bizon | Water Sigil - Mil-Spec - 0:0.5
+Five-SeveN | Nightshade - Mil-Spec - 0:0.5
+G3SG1 | Azure Zebra - Mil-Spec - 0:0.28
+P250 | Steel Disruption - Mil-Spec - 0:0.2
+Galil AR | Blue Titanium - Mil-Spec - 0:0.04
+P90 | Blind Spot - Restricted - 0:0.5
+AK-47 | Blue Laminate - Restricted - 0.02:0.4
+FAMAS | Afterimage - Classified - 0.02:0.4
+AWP | Electric Hive - Classified - 0:0.4
+Desert Eagle | Cobalt Disruption - Classified - 0:0.2
+M4A4 | X-Ray - Covert - 0:0.3
+!eSports 2014 Summer Case
+XM1014 | Red Python - Mil-Spec - 0.08:0.5
+SSG 08 | Dark Water - Mil-Spec - 0.1:0.26
+CZ75-Auto | Hexane - Mil-Spec - 0:0.4
+Negev | Bratatat - Mil-Spec - 0:1
+USP-S | Blood Tiger - Mil-Spec - 0:0.3
+MAC-10 | Ultraviolet - Mil-Spec - 0.06:0.8
+P90 | Virus - Restricted - 0.06:0.8
+Glock-18 | Steel Disruption - Restricted - 0:0.2
+PP-Bizon | Blue Streak - Restricted - 0.06:0.8
+MP7 | Ocean Foam - Restricted - 0:0.08
+Desert Eagle | Crimson Web - Restricted - 0.06:0.8
+P2000 | Corticera - Classified - 0.06:0.3
+Nova | Bloomstick - Classified - 0.06:0.8
+AUG | Bengal Tiger - Classified - 0.06:0.8
+AWP | Corticera - Classified - 0.06:0.3
+M4A4 | Bullet Rain - Covert - 0.02:0.46
+AK-47 | Jaguar - Covert - 0:1
+!Falchion Case
+UMP-45 | Riot - Mil-Spec - 0:0.7
+Nova | Ranger - Mil-Spec - 0:1
+Glock-18 | Bunsen Burner - Mil-Spec - 0:0.8
+P90 | Elite Build - Mil-Spec - 0:1
+USP-S | Torque - Mil-Spec - 0:0.46
+Galil AR | Rocket Pop - Mil-Spec - 0:1
+FAMAS | Neural Net - Restricted - 0:0.6
+P2000 | Handgun - Restricted - 0:1
+MP9 | Ruby Poison Dart - Restricted - 0:0.5
+Negev | Loudmouth - Restricted - 0.14:0.65
+M4A4 | Evil Daimyo - Restricted - 0:0.52
+CZ75-Auto | Yellow Jacket - Classified - 0:1
+MP7 | Nemesis - Classified - 0:0.32
+SG 553 | Cyrex - Classified - 0:1
+AK-47 | Aquamarine Revenge - Covert - 0:1
+AWP | Hyper Beast - Covert - 0:1
+!Gamma Case
+PP-Bizon | Harvester - Mil-Spec - 0:1
+Nova | Exo - Mil-Spec - 0:0.5
+P250 | Iron Clad - Mil-Spec - 0.05:0.8
+MAC-10 | Carnivore - Mil-Spec - 0:1
+Tec-9 | Ice Cap - Mil-Spec - 0:0.5
+SG 553 | Aerial - Mil-Spec - 0:0.6
+Five-SeveN | Violent Daimyo - Mil-Spec - 0:0.7
+Sawed-Off | Limelight - Restricted - 0:1
+P90 | Chopper - Restricted - 0:0.6
+AUG | Aristocrat - Restricted - 0:0.66
+-R8 Revolver | Reboot - Restricted - 0:1
+AWP | Phobos - Restricted - 0:0.4
+P2000 | Imperial Dragon - Classified - 0:0.63
+SCAR-20 | Bloodsport - Classified - 0:0.45
+M4A4 | Desolate Space - Classified - 0:1
+Glock-18 | Wasteland Rebel - Covert - 0:0.54
+M4A1-S | Mecha Industries - Covert - 0.8
+!Gamma 2 Case
+Five-SeveN | Scumbria - Mil-Spec - 0:1
+G3SG1 | Ventilator - Mil-Spec - 0:0.45
+XM1014 | Slipstream - Mil-Spec - 0:0.5
+CZ75-Auto | Imprint - Mil-Spec - 0:1
+UMP-45 | Briefing - Mil-Spec - 0:1
+Negev | Dazzle - Mil-Spec - 0.1:0.65
+P90 | Grim - Mil-Spec - 0:0.8
+SCAR-20 | Powercore - Restricted - 0:1
+MAG-7 | Petroglyph - Restricted - 0:0.44
+SG 553 | Triarch - Restricted - 0:1
+Glock-18 | Weasel - Restricted - 0:1
+Desert Eagle | Directive - Restricted - 0.06:1
+Tec-9 | Fuel Injector - Classified - 0:1
+AUG | Syd Mead - Classified - 0:0.8
+MP9 | Airlock - Classified - 0:1
+FAMAS | Roll Cage - Covert - 0:1
+AK-47 | Neon Revolution - Covert - 0:0.8
+!Glove Case
+CZ75-Auto | Polymer - Mil-Spec - 0:0.5
+MAG-7 | Sonar - Mil-Spec - 0:0.45
+MP9 | Sand Scale - Mil-Spec - 0:0.45
+P2000 | Turf - Mil-Spec - 0:1
+Galil AR | Black Sand - Mil-Spec - 0:1
+MP7 | Cirrus - Mil-Spec - 0:0.75
+Glock-18 | Ironwork - Mil-Spec - 0:1
+G3SG1 | Stinger - Restricted - 0:0.75
+Nova | Gila - Restricted - 0:0.3
+Dual Berettas | Royal Consorts - Restricted - 0:1
+M4A1-S | Flashback - Restricted - 0:1
+USP-S | Cyrex - Restricted - 0:0.55
+Sawed-Off | Wasteland Princess - Classified - 0:0.7
+P90 | Shallow Grave - Classified - 0:0.75
+FAMAS | Mecha Industries - Classified - 0:0.5
+SSG 08 | Dragonfire - Covert - 0:0.5
+M4A4 | Buzz Kill - Covert - 0:0.7
+!Horizon Case
+R8 Revolver | Survivalist - Mil-Spec - 0:0.7
+Dual Berettas | Shred - Mil-Spec - 0:0.5
+AUG | Amber Slipstream - Mil-Spec - 0:0.55
+Tec-9 | Snek-9 - Mil-Spec - 0:1
+MP9 | Capillary - Mil-Spec - 0:0.7
+P90 | Traction - Mil-Spec - 0:1
+Glock-18 | Warhawk - Mil-Spec - 0:1
+MP7 | Powercore - Restricted - 0:0.8
+Nova | Toy Soldier - Restricted - 0:1
+G3SG1 | High Seas - Restricted - 0:0.7
+CZ75-Auto | Eco - Restricted - 0:1
+AWP | PAW - Restricted - 0:0.5
+Sawed-Off | Devourer - Classified - 0:0.8
+FAMAS | Eye of Athena - Classified - 0:0.7
+M4A1-S | Nightmare - Classified - 0:1
+Desert Eagle | Code Red - Covert - 0:1
+AK-47 | Neon Rider - Covert - 0:0.8
+!Huntsman Weapon Case
+SSG 08 | Slashed - Mil-Spec - 0.15:0.8
+Galil AR | Kami - Mil-Spec - 0:0.6
+Tec-9 | Isaac - Mil-Spec - 0:1
+P2000 | Pulse - Mil-Spec - 0:0.6
+CZ75-Auto | Twist - Mil-Spec - 0:1
+P90 | Module - Mil-Spec - 0:0.35
+PP-Bizon | Antique - Restricted - 0:0.5
+AUG | Torque - Restricted - 0:0.5
+XM1014 | Heaven Guard - Restricted - 0.03:0.5
+MAC-10 | Tatter - Restricted - 0:0.5
+M4A1-S | Atomic Alloy - Classified - 0:0.9
+SCAR-20 | Cyrex - Classified - 0:0.5
+USP-S | Caiman - Classified - 0:0.4
+AK-47 | Vulcan - Covert - 0:0.9
+M4A4 | Desert-Strike - Covert - 0:0.7
+!Operation Bravo Case
+G3SG1 | Demeter - Mil-Spec - 0.06:0.8
+Nova | Tempest - Mil-Spec - 0.06:0.22
+Dual Berettas | Black Limba - Mil-Spec - 0.06:0.8
+Galil AR | Shattered - Mil-Spec - 0.06:0.8
+UMP-45 | Bone Pile - Mil-Spec - 0.06:0.34
+SG 553 | Wave Spray - Mil-Spec - 0.06:0.8
+M4A1-S | Bright Water - Restricted - 01:0.22
+MAC-10 | Graven - Restricted - 0.06:0.8
+M4A4 | Zirka - Restricted - 0.06:0.42
+USP-S | Overgrowth - Restricted - 0.06:0.8
+P2000 | Ocean Foam - Classified - 0:0.12
+AWP | Graphite - Classified - 0:0.12
+P90 | Emerald Dragon - Classified - 0.06:0.52
+Desert Eagle | Golden Koi - Covert - 0:0.12
+AK-47 | Fire Serpent - Covert - 0.06:0.76
+!Operation Breakout Weapon Case
+Negev | Desert-Strike - Mil-Spec - 0:0.5
+MP7 | Urban Hazard - Mil-Spec - 0:0.5
+P2000 | Ivory - Mil-Spec - 0:1
+UMP-45 | Labyrinth - Mil-Spec - 0:0.4
+SSG 08 | Abyss - Mil-Spec - 0:1
+PP-Bizon | Osiris - Restricted - 0:0.5
+CZ75-Auto | Tigris - Restricted - 0:1
+Nova | Koi - Restricted - 0:0.3
+P250 | Supernova - Restricted - 0:0.4
+Five-SeveN | Fowl Play - Classified - 0:1
+Desert Eagle | Conspiracy - Classified - 0:0.3
+Glock-18 | Water Elemental - Classified - 0:0.7
+M4A1-S | Cyrex - Covert - 0:0.5
+P90 | Asiimov - Covert - 0:0.92
+!Operation Hydra Case
+FAMAS | Macabre - Mil-Spec - 0:0.6
+UMP-45 | Metal Flowers - Mil-Spec - 0:0.7
+MAG-7 | Hard Water - Mil-Spec - 0:45
+Tec-9 | Cut Out - Mil-Spec - 0:1
+MAC-10 | Aloha - Mil-Spec - 0:0.65
+M4A1-S | Briefing - Mil-Spec - 0:0.8
+USP-S | Blueprint - Mil-Spec - 0:0.86
+P250 | Red Rock - Restricted - 0:1
+P2000 | Woodsman - Restricted - 0:0.8
+SSG 08 | Death's Head - Restricted - 0:0.51
+P90 | Death Grip - Restricted - 0:1
+AK-47 | Orbit Mk01 - Restricted - 0:0.55
+Galil AR | Sugar Rush - Classified - 0:0.55
+Dual Berettas | Cobra Strike - Classified - 0:0.6
+M4A4 | Hellfire - Classified - 0:0.5
+Five-SeveN | Hyper Beast - Covert - 0:1
+AWP | Oni Taiji - Covert - 0:0.5
+!Operation Phoenix Weapon Case
+UMP-45 | Corporal - Mil-Spec - 0.05:0.75
+Negev | Terrain - Mil-Spec - 0:0.45
+MAG-7 | Heaven Guard - Mil-Spec - 0:0.4
+Tec-9 | Sandstorm - Mil-Spec - 0.1:0.7
+FAMAS | Sergeant - Restricted - 0.1:1
+SG 553 | Pulse - Restricted - 0.1:0.6
+MAC-10 | Heat - Restricted - 0:1
+USP-S | Guardian - Restricted - 0:0.38
+P90 | Trigon - Classified - 0.08:0.75
+Nova | Antique - Classified - 0:0.3
+AK-47 | Redline - Classified - 0.1:0.7
+AUG | Chameleon - Covert - 0:0.5
+AWP | Asiimov - Covert - 0.18:1
+!Operation Vanguard Weapon Case
+G3SG1 | Murky - Mil-Spec - 0:0.25
+MP9 | Dart - Mil-Spec - 0:0.46
+Five-SeveN | Urban Hazard - Mil-Spec - 0:0.25
+UMP-45 | Delusion - Mil-Spec - 0.06:0.35
+MAG-7 | Firestarter - Mil-Spec - 0.06:0.49
+Sawed-Off | Highwayman - Restricted - 0:1
+Glock-18 | Grinder - Restricted - 0.02:0.25
+M4A1-S | Basilisk - Restricted - 0:0.68
+M4A4 | Griffin - Restricted - 0:0.8
+SCAR-20 | Cardiac - Classified - 0:1
+P250 | Cartel - Classified - 0:0.75
+XM1014 | Tranquility - Classified - 0:0.5
+P2000 | Fire Elemental - Covert - 0:0.6
+AK-47 | Wasteland Rebel - Covert - 0.05:0.7
+!Operation Wildfire Case
+Tec-9 | Jambiya - Mil-Spec - 0:1
+MAC-10 | Lapis Gator - Mil-Spec - 0:0.5
+Dual Berettas | Cartel - Mil-Spec - 0:1
+PP-Bizon | Photic Zone - Mil-Spec - 0:1
+SSG 08 | Necropos - Mil-Spec - 0:1
+USP-S | Lead Conduit - Mil-Spec - 0:1
+Five-SeveN | Triumvirate - Restricted - 0:0.61
+MAG-7 | Praetorian - Restricted - 0:0.45
+MP7 | Impire - Restricted - 0:0.4
+Glock-18 | Royal Legion - Restricted - 0:1
+FAMAS | Valence - Restricted - 0:0.8
+Nova | Hyper Beast - Classified - 0:0.6
+AWP | Elite Build - Classified - 0:0.4
+Desert Eagle | Kumicho Dragon - Classified - 0:76
+M4A4 | The Battlestar - Covert - 0:0.64
+AK-47 | Fuel Injector - Covert - 0:1
+!Revolver Case
+SCAR-20 | Outbreak - Mil-Spec - 0:0.5
+Sawed-Off | Yorick - Mil-Spec - 0:1
+P2000 | Imperial - Mil-Spec - 0:0.2
+AUG | Ricochet - Mil-Spec - 0:0.8
+Desert Eagle | Corinthian - Mil-Spec - 0:0.44
+R8 Revolver | Crimson Web - Mil-Spec - 0.06:0.8
+XM1014 | Teclu Burner - Restricted - 0:0.65
+PP-Bizon | Fuel Rod - Restricted - 0:1
+Five-SeveN | Retrobution - Restricted - 0:1
+Tec-9 | Avalanche - Restricted - 0:1
+SG 553 | Tiger Moth - Restricted - 0:1
+Negev | Power Loader - Restricted - 0:1
+P90 | Shapewood - Classified - 0:1
+G3SG1 | The Executioner - Classified - 0.14:0.85
+AK-47 | Point Disarray - Classified - 0:0.67
+R8 Revolver | Fade - Covert - 0:0.4
+M4A4 | Royal Paladin - Covert - 0:0.8
+!Shadow Case
+MAG-7 | Cobalt Core - Mil-Spec - 0:0.5
+XM1014 | Scumbria - Mil-Spec - 0:1
+SCAR-20 | Green Marine - Mil-Spec - 0:0.8
+MAC-10 | Rangeen - Mil-Spec - 0:0.5
+FAMAS | Survivor Z - Mil-Spec - 0:0.6
+Glock-18 | Wraiths - Mil-Spec - 0:0.8
+Dual Berettas | Dualing Dragons - Mil-Spec - 0:1
+MP7 | Special Delivery - Restricted - 0:0.62
+M249 | Nebula Crusader - Restricted - 0:1
+P250 | Wingshot - Restricted - 0:0.9
+Galil AR | Stone Cold - Restricted - 0:0.9
+G3SG1 | Flux - Classified - 0:0.9
+SSG 08 | Big Iron - Classified - 0:0.64
+AK-47 | Frontside Misty - Classified - 0.02:0.87
+M4A1-S | Golden Coil - Covert - 0:1
+USP-S | Kill Confirmed - Covert - 0:1
+!Spectrum Case
+PP-Bizon | Jungle Slipstream - Mil-Spec - 0:0.5
+Sawed-Off | Zander - Mil-Spec - 0.05:1
+MP7 | Akoben - Mil-Spec - 0:0.7
+P250 | Ripple - Mil-Spec - 0:0.5
+SCAR-20 | Blueprint - Mil-Spec - 0:0.75
+Five-SeveN | Capillary - Mil-Spec - 0:0.7
+Desert Eagle | Oxide Blaze - Mil-Spec - 0:0.5
+MAC-10 | Last Dive - Restricted - 0:0.52
+Galil AR | Crimson Tsunami - Restricted - 0:0.55
+UMP-45 | Scaffold - Restricted - 0:1
+M249 | Emerald Poison Dart - Restricted - 0:0.45
+XM1014 | Seasons - Restricted - 0:0.5
+CZ75-Auto | Xiangliu - Classified - 0:0.56
+AWP | Fever Dream - Classified - 0:0.55
+M4A1-S | Decimator - Classified - 0:0.85
+USP-S | Neo-Noir - Covert - 0:0.7
+AK-47 | Bloodsport - Covert - 0:0.45
+!Spectrum 2 Case
+SCAR-20 | Jungle Slipstream - Mil-Spec - 0:0.5
+G3SG1 | Hunter - Mil-Spec - 0:1
+Sawed-Off | Morris - Mil-Spec - 0:1
+Tec-9 | Cracked Opal - Mil-Spec - 0:1
+MAC-10 | Oceanic - Mil-Spec - 0:0.6
+AUG | Triqua - Mil-Spec - 0:1
+Glock-18 | Off World - Mil-Spec - 0:1
+UMP-45 | Exposure - Restricted - 0:0.55
+XM1014 | Ziggy - Restricted - 0:0.72
+CZ75-Auto | Tacticat - Restricted - 0:0.7
+SG 553 | Phantom - Restricted - 0:0.6
+MP9 | Goo - Restricted - 0:0.6
+R8 Revolver | Llama Cannon - Classified - 0.03:0.7
+PP-Bizon | High Roller - Classified - 0:1
+M4A1-S | Leaded Glass - Classified - 0:0.7
+P250 | See Ya Later - Covert - 0:0.7
+AK-47 | The Empress - Covert - 0:1
+!Winter Offensive Weapon Case
+M249 | Magma - Mil-Spec - 0:0.7
+Five-SeveN | Kami - Mil-Spec - 0:0.3
+PP-Bizon | Cobalt Halftone - Mil-Spec - 0.05:0.45
+Galil AR | Sandstorm - Mil-Spec - 0.1:0.6
+Nova | Rising Skull - Restricted - 0:0.5
+FAMAS | Pulse - Restricted - 0:0.4
+Dual Berettas | Marina - Restricted - 0.05:0.5
+MP9 | Rose Iron - Restricted - 0:0.3
+M4A1-S | Guardian - Classified - 0:0.5
+P250 | Mehndi - Classified - 0:1
+AWP | Redline - Classified - 0.1:0.4
+Sawed-Off | The Kraken - Covert - 0:0.4
+M4A4 | Asiimov - Covert - 0.18:1
+!Operation Broken Fang Case
+G3SG1 | Digital Mesh - Mil-Spec - 0:0.8
+P90 | Cocoa Rampage - Mil-Spec - 0:0.6
+M249 | Deep Relief - Mil-Spec - 0:1
+CZ75-Auto | Vendetta - Mil-Spec - 0:0.7
+P250 | Contaminant - Mil-Spec - 0:1
+MP5-SD | Condition Zero - Mil-Spec - 0:1
+Galil AR | Vandal - Mil-Spec - 0:1
+Nova | Clear Polymer - Restricted - 0:1
+Dual Berettas | Dezastre - Restricted - 0:1
+UMP-45 | Gold Bismuth - Restricted - 0:0.7
+SSG 08 | Parallax - Restricted - 0:1
+AWP | Exoskeleton - Restricted - 0:1
+Five-SeveN | Fairy Tale - Classified - 0.02:0.9
+USP-S | Monster Mashup - Classified - 0:0.7
+M4A4 | Cyber Security - Classified - 0:0.98
+Glock-18 | Neo-Noir - Covert - 0:1
+M4A1-S | Printstream - Covert - 0:0.8
+!Fracture Case
+SG 553 | Ol' Rusty - Mil-Spec - 0:0.7
+Negev | Ultralight - Mil-Spec - 0:0.79
+P2000 | Gnarled - Mil-Spec - 0:1
+P90 | Freight - Mil-Spec - 0:1
+PP-Bizon | Runic - Mil-Spec - 0:1
+P250 | Cassette - Mil-Spec - 0:0.6
+SSG 08 | Mainframe 001 - Mil-Spec - 0:1
+MP5-SD | Kitbash - Restricted - 0:0.8
+Galil AR | Connexion - Restricted - 0:0.8
+Tec-9 | Brother - Restricted - 0:1
+MAC-10 | Allure - Restricted - 0:1
+MAG-7 | Monster Call - Restricted - 0:1
+XM1014 | Entombed - Classified - 0:0.5
+M4A4 | Tooth Fairy - Classified - 0:0.73
+Glock-18 | Vogue - Classified - 0:0.75
+AK-47 | Legion of Anubis - Covert - 0:0.7
+Desert Eagle | Printstream - Covert - 0:0.8
+!Prisma Case
+MP7 | Mischief - Mil-Spec - 0.1:1
+P90 | Off World - Mil-Spec - 0:0.75
+P250 | Verdigris - Mil-Spec - 0:0.7
+Galil AR | Akoben - Mil-Spec - 0:0.75
+FAMAS | Crypsis - Mil-Spec - 0:0.55
+MAC-10 | Whitefish - Mil-Spec - 0:1
+AK-47 | Uncharted - Mil-Spec - 0:0.75
+MP5-SD | Gauss - Restricted - 0:1
+Tec-9 | Bamboozle - Restricted - 0:0.8
+UMP-45 | Moonrise - Restricted - 0:0.4
+Desert Eagle | Light Rail - Restricted - 0:0.9
+AWP | Atheris - Restricted - 0:1
+R8 Revolver | Skull Crusher - Classified - 0.25:0.8
+XM1014 | Incinegator - Classified - 0.14:0.65
+AUG | Momentum - Classified - 0.05:1
+Five-SeveN | Angry Mob - Covert - 0:0.7
+M4A4 | The Emperor - Covert - 0:0.8
+!Prisma 2 Case
+R8 Revolver | Bone Forged - Mil-Spec - 0:0.6
+CZ75-Auto | Distressed - Mil-Spec - 0:1
+Negev | Prototype - Mil-Spec - 0:0.7
+MP5-SD | Desert Strike - Mil-Spec - 0:1
+AUG | Tom Cat - Mil-Spec - 0:0.8
+Desert Eagle | Blue Ply - Mil-Spec - 0:1
+AWP | Capillary - Mil-Spec - 0.05:0.7
+Sawed-Off | Apocalypto - Restricted - 0:1
+P2000 | Acid Etched - Restricted - 0:1
+SCAR-20 | Enforcer - Restricted - 0:1
+SSG 08 | Fever Dream - Restricted - 0:0.72
+SG 553 | Darkwing - Restricted - 0:1
+MAG-7 | Justice - Classified - 0:1
+MAC-10 | Disco Tech - Classified - 0:1
+AK-47 | Phantom Disruptor - Classified - 0:0.65
+M4A1-S | Player Two - Covert - 0:0.84
+Glock-18 | Bullet Queen - Covert - 0:1
+!Shattered Web Case
+G3SG1 | Black Sand - Mil-Spec - 0:0.8
+SCAR-20 | Torn - Mil-Spec - 0:0.45
+Nova | Plume - Mil-Spec - 0:0.8
+MP5-SD | Acid Wash - Mil-Spec - 0:0.68
+M249 | Warbird - Mil-Spec - 0.05:0.65
+R8 Revolver | Memento - Mil-Spec - 0:0.8
+Dual Berettas | Balance - Mil-Spec - 0:1
+P2000 | Obsidian - Restricted - 0:1
+PP-Bizon | Embargo - Restricted - 0:1
+MP7 | Neon Ply - Restricted - 0:1
+AUG | Arctic Wolf - Restricted - 0:0.7
+AK-47 | Rat Rod - Restricted - 0:1
+Tec-9 | Decimator - Classified - 0:0.75
+SG 553 | Colony IV - Classified - 0:1
+SSG 08 | Bloodshot - Classified - 0.14:0.6
+MAC-10 | Stalker - Covert - 0:1
+AWP | Containment Breach - Covert - 0:1
+!CS20 Case
+MAG-7 | Popdog - Mil-Spec - 0:0.8
+SCAR-20 | Assault - Mil-Spec - 0:0.62
+Tec-9 | Flash Out - Mil-Spec - 0:0.7
+Dual Berettas | Elite 1.6 - Mil-Spec - 0:0.7
+MAC-10 | Classic Crate - Mil-Spec - 0:1
+FAMAS | Decommissioned - Mil-Spec - 0:1
+Glock-18 | Sacrifice - Mil-Spec - 0:1
+M249 | Aztec - Restricted - 0:0.75
+Five-SeveN | Buddy - Restricted - 0:0.55
+UMP-45 | Plastique - Restricted - 0:0.8
+P250 | Inferno - Restricted - 0:0.68
+MP5-SD | Agent - Restricted - 0:1
+P90 | Nostalgia - Classified - 0:0.57
+AUG | Death by Puppy - Classified - 0:0.4
+MP9 | Hydra - Classified - 0:1
+FAMAS | Commemoration - Covert - 0:0.5
+AWP | Wildfire - Covert - 0:0.7
+?Collections
+!Control
+XM1014 | Charter - Consumer - 0:0.65
+AUG | Surveillance - Consumer - 0:0.6
+MP9 | Army Sheen - Consumer - 0:0.3
+CZ75-Auto | Jungle Dashed - Consumer - 0.06:0.80
+P250 | Forest Night - Consumer - 0.06:0.80
+Dual Berettas | Switch Board - Industrial - 0:0.65
+Desert Eagle | The Bronze - Industrial - 0:0.3
+MAG-7 | Carbon Fiber - Industrial - 0:0.12
+MP5-SD | Nitro - Industrial - 0.6:0.8
+SCAR-20 | Magna Carta - Mil-Spec - 0:0.6
+P2000 | Dispatch - Mil-Spec - 0:0.65
+SSG 08 | Threat Detected - Mil-Spec - 0:0.65
+M4A4 | Global Offensive - Mil-Spec - 0:0.7
+FAMAS | Prime Conspiracy - Restricted - 0:0.55
+UMP-45 | Crime Scene - Restricted - 0:0.75
+Five-SeveN | Berries And Cherries - Restricted - 0:0.1
+USP-S | Target Acquired - Classified - 0:0.5
+M4A1-S | Blue Phosphor - Classified - 0:0.8
+AWP | Fade - Covert - 0:0.8
+!Havoc
+PP-Bizon | Death Rattle - Consumer - 0.08:0.5
+Tec-9 | Phoenix Chalk - Consumer - 0:0.8
+Sawed-Off | Clay Ambush - Consumer - 0:0.6
+Dual Berettas | Heist - Consumer - 0:0.7
+M249 | Predator - Consumer - 0.06:0.8
+R8 Revolver | Phoenix Marker - Industrial - 0:0.6
+MP7 | Vault Heist - Industrial - 0:0.6
+UMP-45 | Houndstooth - Industrial - 0:0.6
+Nova | Rust Coat - Industrial - 0:0.8
+Negev | Phoenix Stencil - Mil-Spec - 0:0.65
+P90 | Tiger Pit - Mil-Spec - 0:0.5
+Desert Eagle | Night Heist - Mil-Spec - 0:0.65
+P250 | Bengal Tiger - Mil-Spec - 0.06:0.8
+Galil AR | Phoenix Blacklight - Restricted - 0:0.7
+Glock-18 | Franklin - Restricted - 0:0.4
+SG 553 | Hypnotic - Restricted - 0:0.08
+MAC-10 | Hot Snakes - Classified - 0:1
+AWP | Silk Tiger - Classified - 0:0.6
+AK-47 | X-Ray - Covert - 0:1
+!Ancient
+P90 | Ancient Earth - Consumer - 0:0.5
+Nova | Army Sheen - Consumer - 0:0.3
+SG 553 | Lush Ruins - Consumer - 0:0.7
+SSG 08 | Jungle Dashed - Consumer - 0.6:0.8
+R8 Revolver | Night - Consumer - 0.06:0.8
+P2000 | Panther Camo - Industrial - 0:0.5
+MP7 | Tall Grass - Industrial - 0:0.65
+G3SG1 | Ancient Ritual - Industrial - 0:0.76
+CZ75-Auto | Silver - Industrial - 0:0.08
+Galil AR | Dusk Ruins - Mil-Spec - 0:0.6
+FAMAS | Dark Water - Mil-Spec - 0.1:0.26
+Tec-9 | Blast From the Past - Mil-Spec - 0:0.65
+AUG | Carved Jade - Mil-Spec - 0:0.2
+MAC-10 | Gold Brick - Restricted - 0:0.7
+XM1014 | Ancient Lore - Restricted - 0:0.5
+USP-S | Ancient Visions - Restricted - 0:0.45
+P90 | Run and Hide - Classified - 0:1
+AK-47 | Panthera onca - Classified - 0:1
+M4A1-S | Welcome to the Jungle - Covert - 0:1
+!2018 Inferno
+MAG-7 | Rust Coat - Consumer - 0:1
+UMP-45 | Mudder - Consumer - 0.06:0.8
+AUG | Sweeper - Consumer - 0:0.6
+MP5-SD | Dirt Drop - Consumer - 0.06:0.8
+MP9 | Slide - Consumer - 0.06:0.8
+PP-Bizon | Candy Apple - Industrial - 0:0.3
+MAC-10 | Calf Skin - Industrial - 0:1
+R8 Revolver | Nitro - Industrial - 0.06:0.8
+Glock-18 | High Beam - Industrial - 0:0.08
+Sawed-Off | Brake Light - Mil-Spec - 0:0.8
+M4A4 | Converter - Mil-Spec - 0:0.4
+USP-S | Check Engine - Mil-Spec - 0:0.6
+SSG 08 | Hand Brake - Mil-Spec - 0:1
+P250 | Vino Primo - Restricted - 0:1
+MP7 | Fade - Restricted - 0:0.25
+AK-47 | Safety Net - Restricted - 0:0.6
+Dual Berettas | Twin Turbo - Classified - 0:1
+SG 553 | Integrale - Classified - 0:1
+!2018 Nuke
+Nova | Mandrel - Consumer - 0:0.5
+UMP-45 | Facility Dark - Consumer - 0:0.5
+P250 | Facility Draft - Consumer - 0:0.5
+Five-SeveN | Coolant - Consumer - 0:0.5
+PP-Bizon | Facility Sketch - Consumer - 0:0.5
+MP7 | Motherboard - Industrial - 0:0.5
+Negev | Bulkhead - Industrial - 0:0.5
+M4A4 | Mainframe - Industrial - 0:0.5
+Galil AR | Cold Fusion - Industrial - 0:0.83
+P250 | Exchanger - Mil-Spec - 0:0.5
+P90 | Facility Negative - Mil-Spec - 0:0.5
+MP5-SD | Co-Processor - Mil-Spec - 0:0.5
+AWP | Acheron - Mil-Spec - 0:0.83
+AUG | Random Access - Restricted - 0:0.5
+MAG-7 | Core Breach - Restricted - 0:1
+Glock-18 | Nuclear Garden - Restricted - 0:0.7
+Tec-9 | Remote Control - Classified - 0:1
+M4A1-S | Control Panel - Classified - 0:1
+!Alpha
+MP9 | Dry Season - Consumer - 0.06:0.8
+M249 | Jungle DDPAT - Consumer - 0.06:0.8
+Tec-9 | Tornado - Consumer - 0.06:0.8
+MP7 | Groundwater - Consumer - 0.06:0.8
+XM1014 | Jungle - Consumer - 0.06:0.8
+Five-SeveN | Anodized Gunmetal - Consumer - 0:0.08
+Sawed-Off | Mosaico - Industrial - 0.06:0.8
+Negev | Palm - Industrial - 0.06:0.8
+SSG 08 | Mayan Dreams - Industrial - 0.06:0.8
+P250 | Facets - Industrial - 0.06:0.8
+Glock-18 | Sand Dune - Industrial - 0.06:0.8
+PP-Bizon | Rust Coat - Mil-Spec - 0:1
+AUG | Anodized Navy - Mil-Spec - 0:0.08
+MAG-7 | Hazard - Mil-Spec - 0.06:0.8
+FAMAS | Spitfire - Restricted - 0.06:0.8
+SCAR-20 | Emerald - Restricted - 0:0.08
+!Assault
+SG 553 | Tornado - Consumer - 0.06:0.8
+UMP-45 | Caramel - 0.06:0.8
+Five-SeveN | Candy Apple - Industrial - 0:0.3
+Negev | Anodized Navy - Mil-Spec - 0:0.08
+AUG | Hot Rod - Mil-Spec - 0:0.08
+MP9 | Bulldozer - Restricted - 0.06:0.8
+Glock-18 | Fade - Restricted - 0:0.08
+!Aztec
+SSG 08 | Lichen Dashed - Consumer - 0.06:0.8
+Five-SeveN | Jungle - Consumer - 0.06:0.8
+Nova | Forest Leaves - Consumer - 0.06:0.8
+M4A4 | Jungle Tiger - Industrial - 0.06:0.8
+AK-47 | Jungle Spray - Industrial - 0.06:0.8
+Tec-9 | Ossified - Mil-Spec - 0:0.08
+!Baggage
+CZ75-Auto | Green Plaid - Consumer - 0:0.58
+MP9 | Green Plaid - Consumer - 0:0.58
+MP7 | Olive Plaid - Consumer - 0:0.58
+G3SG1 | Contractor - Consumer - 0.06:0.8
+SSG 08 | Sand Dune - Consumer - 0.06:0.8
+P2000 | Coach Class - Industrial - 0:1
+P90 | Leather - Industrial - 0:1
+SG 553 | Traveler - Industrial - 0:1
+MAC-10 | Commuter - Industrial - 0.1
+Sawed-Off | First Class - Mil-Spec - 0:0.5
+XM1014 | Red Leather - Mil-Spec - 0:0.56
+USP-S | Business Class - Mil-Spec - 0:1
+AK-47 | First Class - Restricted - 0:1
+Desert Eagle | Pilot - Restricted - 0:1
+AK-47 | Jet Set - Classified - 0:1
+!Bank
+MP7 | Forest DDPAT - Consumer - 0.06:0.8
+Sawed-Off | Forest DDPAT - Consumer - 0.06:0.8
+SG 553 | Army Sheen - Consumer - 0:0.3
+Negev | Army Sheen - Consumer - 0:0.3
+Tec-9 | Urban DDPAT - Consumer - 0.06:0.8
+R8 Revolver | Bone Mask - Consumer - 0.06:0.8
+Glock-18 | Death Rattle - Industrial - 0.08:0.5
+G3SG1 | Green Apple - Industrial - 0:0.3
+Nova | Caged Steel - Industrial - 0:0.2
+UMP-45 | Carbon Fiber - Industrial - 0:0.12
+MAC-10 | Silver - Industrial - 0:0.08
+Galil AR | Tuxedo - Mil-Spec - 0:0.8
+CZ75-Auto | Tuxedo - Mil-Spec - 0:0.8
+Desert Eagle | Meteorite - Mil-Spec - 0:0.18
+AK-47 | Emerald Pinstripe - Restricted - 0:1
+P250 | Franklin - Classified - 0:0.4
+!Cache
+Negev | Nuclear Waste - Industrial - 0:0.4
+PP-Bizon | Chemical Green - Industrial - 0:0.9
+P250 | Contamination - Industrial - 0:0.83
+Five-SeveN | Hot Shot - Industrial - 0:1
+SG 553 | Fallout Warning - Industrial - 0:0.8
+AUG | Radiation Hazard - Industrial - 0:0.55
+XM1014 | Bone Machine - Mil-Spec - 0:0.6
+Tec-9 | Toxic - Mil-Spec - 0:0.7
+MAC-10 | Nuclear Garden - Mil-Spec - 0:0.7
+MP9 | Setting Sun - Mil-Spec - 0:1
+Glock-18 | Reactor - Mil-Spec - 0:1
+FAMAS | Styx - Restricted - 0:0.6
+Galil AR | Cerberus - Restricted - 0:0.9
+!Canals
+AUG | Navy Murano - Consumer - 0:1
+Negev | Boroque Sand - Consumer - 0:1
+SCAR-20 | Stone Mosaico - Consumer - 0.06:0.5
+R8 Revolver | Canal Spray - Consumer - 0.06:0.5
+CZ75-Auto | Indigo - Consumer - 0.06:0.5
+Tec-9 | Orange Murano - Industrial - 0:1
+SG 553 | Candy Apple - Industrial - 0:0.7
+P250 | Dark Filigree - Industrial - 0:0.5
+AK-47 | Baroque Purple - Industrial - 0:1
+SSG 08 | Orange Filigree - Mil-Spec - 0:0.5
+Dual Berettas | Emerald - Mil-Spec - 0:0.08
+P90 | Baroque Red - Mil-Spec - 0:0.5
+G3SG1 | Violet Murano - Mil-Spec - 0:0.5
+MAC-10 | Red Filigree - Restricted - 0:0.5
+MP9 | Stained Glass - Restricted - 0:0.5
+Nova | Baroque Orange - Restricted - 0:0.5
+MAG-7 | Cinquedea - Classified - 0:1
+AWP | The Prince - Covert - 0:0.6
+!Chop Shop
+M249 | Impact Drill - Consumer - 0:1
+MAG-7 | Seabird - Consumer - 0:1
+SCAR-20 | Army Sheen - Consumer - 0:0.3
+CZ75-Auto | Army Sheen - Consumer - 0:0.3
+Galil AR | Urban Rubble - Industrial - 0:0.5
+USP-S | Para Green - Industrial - 0:0.8
+Desert Eagle | Night - Industrial - 0.06:0.8
+MP7 | Full Stop - Mil-Spec - 0:0.6
+Five-SeveN | Nitro - Mil-Spec - 0.06:0.8
+CZ75-Auto | Emerald - Mil-Spec - 0:0.08
+MAC-10 | Fade - Mil-Spec - 0:0.08
+P250 | Whiteout - Mil-Spec - 0.06:0.8
+Dual Berettas | Duelist - Restricted - 0:1
+SG 553 | Bulldozer - Restricted - 0.06:0.8
+Glock-18 | Twilight Galaxy - Classified - 0:0.2
+M4A1-S | Hot Rod - Classified - 0:0.08
+!Cobblestone
+Dual Berettas | Briar - Consumer - 0:0.22
+SCAR-20 | Storm - Consumer - 0.06:0.8
+P90 | Storm - Consumer - 0.06:0.8
+UMP-45 | Indigo - Consumer - 0.06:0.8
+MAC-10 | Indigo - Consumer - 0.06:0.8
+Sawed-Off | Rust Coat - Industrial - 0:0.8
+Nova | Green Apple- Industrial - 0:0.3
+MAG-7 | Silver - Industrial - 0:0.08
+USP-S | Royal Blue - Industrial - 0.06:0.8
+P2000 | Chainmail - Mil-Spec - 0:0.22
+MP9 | Dark Age - Mil-Spec - 0:0.22
+Desert Eagle | Hand Cannon - Restricted - 0.01:0.7
+CZ75-Auto | Chalice - Restricted - 0:0.1
+M4A1-S | Knight - Classified - 0:0.1
+AWP | Dragon Lore - Covert - 0:0.7
+!Dust
+M4A4 | Desert Storm - Industrial - 0.06:0.8
+SCAR-20 | Palm - Industrial - 0.06:0.8
+AK-47 | Predator - Industrial - 0.06:0.8
+AUG | Copperhead - Mil-Spec - 0.12:0.38
+Sawed-Off | Copper - Mil-Spec - 0:1
+AWP | Snake Camo - Mil-Spec - 0.06:0.8
+P2000 | Scorpion - Restricted - 0:0.08
+Glock-18 | Brass - Restricted - 0:1
+Desert Eagle | Blaze - Restricted - 0:0.08
+!Dust 2
+Nova | Predator - Consumer - 0.06:0.8
+SCAR-20 | Sand Mesh - Consumer - 0.06:0.8
+P90 | Sand Spray - Consumer - 0.06:0.8
+G3SG1 | Desert Storm - Consumer - 0.06:0.8
+MP9 | Sand Dashed - Consumer - 0.06:0.8
+P250 | Sand Dune - Consumer - 0.06:0.8
+Tec-9 | VariCamo - Industrial - 0:0.6
+Sawed-Off | Snake Camo - Industrial - 0.06:0.8
+MAC-10 | Palm - Industrial - 0.06:0.8
+Five-SeveN | Orange Peel - Industrial - 0.06:0.8
+AK-47 | Safari Mesh - Industrial - 0.06:0.8
+PP-Bizon | Brass - Mil-Spec - 0:1
+M4A1-S | VariCamo - Mil-Spec - 0:0.6
+SG 553 | Damascus Steel - Mil-Spec - 0:1
+P2000 | Amber Fade - Restricted - 0:0.4
+R8 Revolver | Amber Fade - Classified - 0:0.4
+!Gods and Monsters
+Dual Berettas | Moon in Libra - Consumer - 0:0.5
+AUG | Daedalus - Consumer - 0:0.55
+MP7 | Asterion - Consumer - 0:0.55
+Nova | Moon in Libra - Consumer - 0:0.5
+P2000 | Pathfinder - Industrial - 0:0.35
+Tec-9 | Hades - Industrial - 0:1
+M249 | Shipping Forecast - Industrial - 0:0.5
+AWP | Sun in Leo - Industrial - 0:0.5
+MP9 | Pandora's Box - Mil-Spec - 0:0.3
+UMP-45 | Minotaur's Labyrinth - Mil-Spec - 0:0.39
+M4A1-S | Icarus Fell - Restricted - 0:0.1
+G3SG1 | Chronos - Restricted - 0:0.4
+M4A4 | Poseidon - Classified - 0:0.33
+AWP | Medusa - Covert - 0:1
+Inferno:
+MAG-7 | Sand Dune - Consumer - 0.06:0.8
+Nova | Walnut - Consumer - 0.06:0.8
+P250 | Gunsmoke - Industrial - 0.06:0.8
+M4A4 | Tornado - Industrial - 0.06:0.8
+Dual Berettas | Anodized Navy - Mil-Spec - 0:0.08
+Tec-9 | Brass - Mil-Spec - 0:1
+!Italy
+PP-Bizon | Sand Dashed - Consumer - 0.06:0.8
+Tec-9 | Groundwater - Consumer - 0.06:0.8
+Nova | Sand Dune - Consumer - 0.06:0.8
+FAMAS | Colony - Consumer - 0.06:0.8
+AUG | Contractor - Consumer - 0.06:0.8
+UMP-45 | Gunsmoke - Industrial - 0.06:0.8
+P2000 | Granite Marbleized - Industrial - 0.06:0.8
+Dual Berettas | Stained - Industrial - 0:1
+XM1014 | CaliCamo - Industrial - 0:0.6
+Nova | Candy Apple - Industrial - 0:0.3
+M4A1-S | Boreal Forest - Industrial - 0.06:0.8
+MP7 | Anodized Navy - Mil-Spec - 0:0.08
+Sawed-Off | Full Stop - Mil-Spec - 0:0.6
+Glock-18 | Candy Apple - Mil-Spec - 0:0.3
+AWP | Pit Viper - Restricted - 0.08:0.5
+!Lake
+Galil AR | Sage Spray - Consumer - 0.06:0.8
+XM1014 | Blue Spruce - Consumer - 0.06:0.8
+AUG | Storm - Consumer - 0.06:0.8
+P250 | Boreal Forest - Consumer - 0.06:0.8
+SG 553 | Waves Perforated - Consumer - 0.06:0.8
+G3SG1 | Jungle Dashed - Consumer - 0.06:0.8
+FAMAS | Cyanospatter - Industrial - 0.06:0.8
+Desert Eagle | Mudder - Industrial - 0.06:0.8
+PP-Bizon | Night Ops - Industrial - 0:0.6
+AWP | Safari Mesh - Industrial - 0.06:0.8
+XM1014 | Blue Steel - Industrial - 0:1
+USP-S | Night Ops - Mil-Spec - 0:0.6
+SG 553 | Anodized Navy - Mil-Spec - 0:0.08
+P90 | Teardown - Mil-Spec - 0:0.6
+Dual Berettas | Cobalt Quartz - Restricted - 0:0.4
+!Militia
+XM1014 | Grassland - Consumer - 0.06:0.8
+PP-Bizon | Forest Leaves - Consumer - 0.06:0.8
+MAC-10 | Tornado - Consumer - 0.06:0.8
+P2000 | Grassland Leaves - Industrial - 0.06:0.8
+XM1014 | Blaze Orange - Mil-Spec - 0.06:0.8
+Nova | Blaze Orange - Mil-Spec - 0.06:0.8
+PP-Bizon | Modern Hunter - Mil-Spec - 0.06:0.8
+Nova | Modern Hunter - Mil-Spec - 0.06:0.8
+P250 | Modern Hunter - Mil-Spec - 0.06:0.8
+M4A4 | Modern Hunter - Restricted - 0.06:0.8
+SCAR-20 | Splash Jam - Classified - 0.06:0.8
+!Mirage
+Galil AR | Hunting Blind - Consumer - 0:0.6
+P250 | Bone Mask - Consumer - 0.06:0.8
+G3SG1 | Safari Mesh - Consumer - 0.06:0.8
+P90 | Scorched - Consumer - 0.06:0.8
+Five-SeveN | Contractor - Consumer - 0.06:0.8
+AUG | Colony - Consumer - 0.06:0.8
+Negev | CaliCamo - Industrial - 0:0.6
+SG 553 | Gator Mesh - Industrial - 0:0.5
+MP7 | Orange Peel - Industrial - 0.06:0.8
+SSG 08 | Tropical Storm - Industrial - 0.06:0.8
+Glock-18 | Groundwater - Industrial - 0.06:0.8
+MAC-10 | Amber Fade - Mil-Spec - 0:0.4
+MP9 | Hot Rod - Mil-Spec - 0:0.08
+UMP-45 | Blaze - Mil-Spec - 0:0.08
+MAG-7 | Bulldozer - Restricted - 0.06:0.8
+!Norse
+SG 553 | Barricade - Consumer - 0:0.65
+FAMAS | Night Borre - Consumer - 0:0.55
+SSG 08 | Red Stone - Consumer - 0.06:0.5
+Galil AR | Tornado - Consumer - 0.06:0.8
+MP7 | Scorched - Consumer - 0.06:0.8
+USP-S | Pathfinder - Industrial - 0:0.35
+M4A1-S | Moss Quartz - Industrial - 0:0.5
+MAG-7 | Chainmail - Industrial - 0:0.22
+Dual Berettas | Pyre - Industrial - 0.06:0.55
+CZ75-Auto | Emerald Quartz - Mil-Spec - 0:0.7
+XM1014 | Frost Borre - Mil-Spec - 0:0.5
+MAC-10 | Copper Borre - Mil-Spec - 0:0.5
+SCAR-20 | Brass - Mil-Spec - 0:1
+Desert Eagle | Emerald Jörmungandr - Restricted - 0:0.5
+P90 | Astral Jörmungandr - Restricted - 0:0.5
+AUG | Flame Jörmungandr - Restricted - 0:0.5
+Negev | Mjölnir - Classified - 0:0.6
+AWP | Gungnir - Covert - 0:0.6
+!Nuke
+MAG-7 | Irradiated Alert - Consumer - 0.06:0.8
+PP-Bizon | Irradiated Alert - Consumer - 0.06:0.8
+Sawed-Off | Irradiated Alert - Consumer - 0.06:0.8
+UMP-45 | Fallout Warning - Industrial - 0.06:0.8
+P90 | Fallout Warning - Industrial - 0.06:0.8
+XM1014 | Fallout Warning - Industrial - 0.06:0.8
+M4A4 | Radiation Hazard - Mil-Spec - 0.06:0.8
+P250 | Nuclear Threat - Restricted - 0.06:0.8
+Tec-9 | Nuclear Threat - Restricted - 0.06:0.8
+!Office
+FAMAS | Contrast Spray - Consumer - 0.06:0.8
+G3SG1 | Arctic Camo - Industrial - 0.06:0.8
+Galil AR | Winter Forest - Industrial - 0.06:0.8
+M249 | Blizzard Marbleized - Industrial - 0.06:0.8
+P2000 | Silver - Mil-Spec - 0:0.08
+MP7 | Whiteout - Mil-Spec - 0.06:0.8
+!Overpass
+MAG-7 | Storm - Consumer - 0.06:0.8
+Sawed-Off | Sage Spray - Consumer - 0.06:0.8
+UMP-45 | Scorched - Consumer - 0.06:0.8
+M249 | Contrast Spray - Consumer - 0.06:0.8
+MP9 | Storm - Consumer - 0.06:0.8
+P2000 | Grassland - Industrial - 0.06:0.8
+MP7 | Gunsmoke - Industrial - 0.06:0.8
+Glock-18 | Night - Industrial - 0.06:0.8
+Desert Eagle | Urban DDPAT - Industrial - 0.06:0.8
+XM1014 | VariCamo Blue - Mil-Spec - 0:0.5
+SSG 08 | Detour - Mil-Spec - 0:0.43
+CZ75-Auto | Nitro - Mil-Spec - 0.06:0.8
+AWP | Pink DDPAT - Restricted - 0.06:0.8
+USP-S | Road Rash - Restricted - 0:1
+M4A1-S | Master Piece - Classified - 0:1
+!Rising Sun
+Sawed-Off | Bamboo Shadow - Consumer - 0:0.6
+G3SG1 | Orange Kimono - Consumer - 0:0.8
+P250 | Mint Kimono - Consumer - 0:0.8
+PP-Bizon | Bamboo Print - Consumer - 0:0.8
+Tec-9 | Bamboo Forest - Consumer - 0:0.6
+P250 | Crimson Kimono - Industrial - 0:0.8
+Desert Eagle | Midnight Storm - Industrial - 0:0.76
+Tec-9 | Terrace - Mil-Spec - 0:1
+MAG-7 | Counter Terrace - Mil-Spec - 0:0.65
+Galil AR | Aqua Terrace - Mil-Spec - 0:0.7
+M4A4 | Daybreak - Restricted - 0:0.6
+Five-SeveN | Neon Kimono - Restricted - 0:0.8
+Desert Eagle | Sunset Storm 弐 - Restricted - 0:0.75
+Desert Eagle | Sunset Storm 壱 - Restricted - 0:0.75
+AK-47 | Hydroponic - Classified - 0:0.8
+AUG | Akihabara Accept - Covert - 0:1
+!Safehouse
+SCAR-20 | Contractor - Consumer - 0.06:0.8
+Tec-9 | Army Mesh - Consumer - 0:0.6
+SSG 08 | Blue Spruce - Consumer - 0.06:0.8
+MP7 | Army Recon - Consumer - 0.06:0.8
+Dual Berettas | Contractor - Consumer - 0.06:0.8
+MP9 | Orange Peel - Industrial - 0.06:0.8
+Galil AR | VariCamo - Industrial - 0:0.6
+G3SG1 | VariCamo - Industrial - 0:0.6
+AUG | Condemned - Industrial - 0.06:0.8
+M249 | Gator Mesh - Industrial - 0:0.6
+USP-S | Forest Leaves - Industrial - 0.06:0.8
+FAMAS | Teardown - Mil-Spec - 0:0.6
+Five-SeveN | Silver Quartz - Mil-Spec - 0:0.4
+SSG 08 | Acid Fade - Mil-Spec - 0:0.03
+M4A1-S | Nitro - Restricted - 0.06:0.8
+!St. Marc
+PP-Bizon | Seabird - Consumer - 0:0.5
+MAC-10 | Surfwood - Consumer - 0:0.5
+Sawed-Off | Jungle Thicket - Consumer - 0:0.5
+MP5-SD | Bamboo Garden - Consumer - 0:0.55
+M249 | Jungle - Consumer - 0.06:0.8
+M4A4 | Dark Blossom - Industrial - 0:0.5
+P90 | Sunset Lily - Industrial - 0:0.5
+Tec-9 | Rust Leaf - Industrial - 0:0.5
+XM1014 | Banana Leaf - Industrial - 0:0.6
+MP7 | Teal Blossom - Mil-Spec - 0:0.5
+FAMAS | Sundown - Mil-Spec - 0:0.6
+UMP-45 | Day Lily - Mil-Spec - 0:0.55
+Five-SeveN | Crimson Blossom - Mil-Spec - 0:0.5
+AUG | Midnight Lily - Restricted - 0:0.5
+SSG 08 | Sea Calico - Restricted - 0:0.5
+Glock-18 | Synth Leaf - Restricted - 0:0.7
+MP9 | Wild Lily - Classified - 0:0.7
+AK-47 | Wild Lotus - Covert - 0:1
+!Train
+PP-Bizon | Urban Dashed - Consumer - 0.06:0.8
+Nova | Polar Mesh - Consumer - 0.06:0.8
+Dual Berettas | Colony - Consumer - 0.06:0.8
+UMP-45 | Urban DDPAT - Consumer - 0.06:0.8
+Five-SeveN | Forest Night - Consumer - 0.06:0.8
+G3SG1 | Polar Camo - Consumer - 0.06:0.8
+P90 | Ash Wood - Industrial - 0:0.45
+SCAR-20 | Carbon Fiber - Industrial - 0.12
+MAG-7 | Metallic DDPAT - Industrial - 0:0.08
+P250 | Metallic DDPAT - Industrial - 0:0.08
+MAC-10 | Candy Apple - Industrial - 0:0.3
+M4A4 | Urban DDPAT - Industrial - 0.06:0.8
+Sawed-Off | Amber Fade - Mil-Spec - 0:0.4
+Desert Eagle | Urban Rubble - Mil-Spec - 0:0.5
+Tec-9 | Red Quartz - Restricted - 0:0.4
+!Vertigo
+XM1014 | Urban Perforated - Consumer - 0.06:0.8
+MAC-10 | Urban DDPAT - Consumer - 0.06:0.8
+PP-Bizon | Carbon Fiber - Industrial - 0:0.12
+AK-47 | Black Laminate - Mil-Spec - 0.06:0.8
+P90 | Glacier Mesh - Mil-Spec - 0.06:0.8
+Dual Berettas | Demolition - Restricted - 0.26:0.8
