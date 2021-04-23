@@ -3,7 +3,6 @@
 XM1014 | Quicksilver - Mil-Spec - 0:0.5
 SCAR-20 | Grotto - Mil-Spec - 0:0.5
 M249 | System Lock - Mil-Spec - 0:0.8
-XM1014 | Quicksilver - Mil-Spec - 0:0.5
 MP9 | Deadly Poison - Mil-Spec - 0:1
 Dual Berettas | Urban Shock - Restricted - 0:0.47
 Sawed-Off | Serenity - Restricted - 0:0.5
