@@ -2,18 +2,13 @@ import requests
 from currency_converter import CurrencyConverter
 import time
 import beepy
+import numpy
 c = CurrencyConverter()
 
 def cad(usd):
-    usd = str(usd).replace("$", "")
-    usd = str(usd).replace(",", "")
-    usd = float(usd)
     cad = c.convert(usd, 'USD', 'CAD')
     cad = round(cad, 2)
     return cad
-
-
-
 
 
 
@@ -77,11 +72,14 @@ for x in r:
 
 CaseListConfirm = []
 for a in CaseList: # Case
-    Pleasegodsavemefromthishellscape = {'FN': 0, 'MW': 0, 'FT': 0, 'WW': 0, "BS": 0}
+    print(a)
     PrevPrice = {}
+    WorstPrice = {}
     AllPrice = {}
     for i in Cases[a]: # Rarity
+        print(i)
         AllPrice[i] = {}
+        WorstPrice[i] = {'Factory New': ["", 0], 'Minimal Wear': ["", 0], 'Field-Tested': ["", 0], 'Well-Worn': ["", 0], 'Battle-Scarred': ["", 0]}
         PrevPrice[i] = {'Factory New': ["", 10000], 'Minimal Wear': ["", 10000], 'Field-Tested': ["", 10000], 'Well-Worn': ["", 10000], 'Battle-Scarred': ["", 10000]}
         for n in Cases[a][i]: # Skin
             AllPrice[i][n] = {'Factory New': 0, 'Minimal Wear': 0, 'Field-Tested': 0, 'Well-Worn': 0, 'Battle-Scarred': 0}
@@ -116,7 +114,6 @@ for a in CaseList: # Case
                             SFloat = "Well-Worn"
                         else:
                             if 0.44 < float(SFloat) <= 1:
-                                print(n[0])
                                 SFloat = "Battle-Scarred"
             if FFloat == "Factory New" and SFloat == "Battle-Scarred":
                 FloatRange = ["Factory New", "Minimal Wear", "Field-Tested", "Well-Worn", "Battle-Scarred"]
@@ -152,7 +149,6 @@ for a in CaseList: # Case
                 itemname = n[0] + " (" + p + ")"
                 url = "http://steamcommunity.com/market/priceoverview/?appid=730&currency=1&market_hash_name={}".format(itemname)
                 responce = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
-                print(responce)
                 if str(responce) == "<Response [429]>":
                     for x in range(0, 20):
                         beepy.beep(1)
@@ -160,7 +156,9 @@ for a in CaseList: # Case
                     responce = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
                     pass
                 if str(responce) == "<Response [502]>":
-                    pass
+                    continue
+                if str(responce) == "<Response [500]>":
+                    continue
                 if responce == None:
                     continue
                 json = responce.json()
@@ -178,102 +176,66 @@ for a in CaseList: # Case
                 if CurrentPrice[0] < PrevPrice[i][p][1]:
                     PrevPrice[i][p][1] = CurrentPrice[0]
                     PrevPrice[i][p][0] = n
-    leni = i
+                elif CurrentPrice[0] > WorstPrice[i][p][1]:
+                    WorstPrice[i][p][1] = CurrentPrice[0]
+                    WorstPrice[i][p][0] = n
     for y in AllPrice: # Rarity
-        if y == 'Restricted':
-            up = 'Mil-Spec'
-        elif y == 'Classified':
-            up = 'Restricted'
-        elif y == 'Covert':
-            up = 'Classified'
-        elif y == 'Mil-Spec':
+        if y == "Restricted":
+            up = "Mil-Spec"
+        elif y == "Classified":
+            up = "Restricted"
+        elif y == "Covert":
+            up = "Classified"
+        elif y == "Mil-Spec":
             continue
-        for s in AllPrice[y]:
-            Float = s[1].split(":")
+        for x in numpy.arange(0.01, 1.01, 0.01): # 100 times
+            if 0 <= x <= 0.07:
+                upfloat = "Factory New"
+            elif 0.07 < x <= 0.15:
+                upfloat = "Minimal Wear"
+            elif 0.15 < x <= 0.37:
+                upfloat = "Field-Tested"
+            elif 0.37 < x <= 0.44:
+                upfloat = "Well-Worn"
+            elif 0.44 < x <= 1:
+                upfloat = "Battle-Scarred"
+            s = PrevPrice[up][upfloat]
+            skin = s[0]
+            Float = skin[1].split(":")
             FFloat = Float[0]
             SFloat = Float[1]
-            if AllPrice[y][s]['Factory New'] != 0:
-                avg = (0.07 - float(FFloat))/(float(SFloat) - float(FFloat))
-                if 0 <= avg <= 0.07:
-                    if (PrevPrice[up]['Factory New'][1] * 10) < (AllPrice[y][s]['Factory New'] * 0.85):
-                        Pleasegodsavemefromthishellscape['FN'] += 1
-                        if Pleasegodsavemefromthishellscape['FN'] == leni:
-                            print('10x Factory New ' + str(PrevPrice[up]['Factory New'][0][0]) + ' Turns into 1 Factory New Skin From Case: ' + a)
-                elif 0.07 < avg <= 0.15:
-                    if (PrevPrice[up]['Minimal Wear'][1] * 10) < (AllPrice[y][s]['Factory New'] * 0.85):
-                        Pleasegodsavemefromthishellscape['FN'] += 1
-                        if Pleasegodsavemefromthishellscape['FN'] == leni:
-                            print('10x Minimal Wear ' + str(PrevPrice[up]['Minimal Wear'][0][0]) + ' Turns into 1 Factory New Skin From Case: ' + a)
-                elif 0.15 < avg <= 0.37:
-                    if (PrevPrice[up]['Field-Tested'][1] * 10) < (AllPrice[y][s]['Factory New'] * 0.85):
-                        Pleasegodsavemefromthishellscape['FN'] += 1
-                        if Pleasegodsavemefromthishellscape['FN'] == leni:
-                            print('10x Field-Tested ' + str(PrevPrice[up]['Field-Tested'][0][0]) + ' Turns into 1 Factory New Skin From Case: ' + a)
-                elif 0.37 < avg <= 0.44:
-                    if (PrevPrice[up]['Well-Worn'][1] * 10) < (AllPrice[y][s]['Factory New'] * 0.85):
-                        Pleasegodsavemefromthishellscape['FN'] += 1
-                        if Pleasegodsavemefromthishellscape['FN'] == leni:
-                            print('10x Well-Worn ' + str(PrevPrice[up]['Well-Worn'][0][0]) + ' Turns into 1 Factory New Skin From Case: ' + a)
-                elif 0.44 < avg <= 1:
-                    if (PrevPrice[up]['Battle-Scarred'][1] * 10) < (AllPrice[y][s]['Factory New'] * 0.85):
-                        Pleasegodsavemefromthishellscape['FN'] += 1
-                        if Pleasegodsavemefromthishellscape['FN'] == len(AllPrice):
-                            print('10x Battle-Scarred ' + str(PrevPrice[up]['Battle-Scarred'][0][0]) + ' Turns into 1 Factory New Skin From Case: ' + a)
-            if AllPrice[y][s]['Minimal Wear'] != 0:
-                avg = (0.15 - float(FFloat))/(float(SFloat) - float(FFloat))
-                if 0.07 < avg <= 0.15:
-                    if (PrevPrice[up]['Minimal Wear'][1] * 10) < (AllPrice[y][s]['Minimal Wear'] * 0.85):
-                        Pleasegodsavemefromthishellscape['MW'] += 1
-                        if Pleasegodsavemefromthishellscape['MW'] == leni:
-                            print('10x Minimal Wear ' + str(PrevPrice[up]['Minimal Wear'][0][0]) + ' Turns into 1 Minimal Wear Skin From Case: ' + a)
-                elif 0.15 < avg <= 0.37:
-                    if (PrevPrice[up]['Field-Tested'][1] * 10) < (AllPrice[y][s]['Minimal Wear'] * 0.85):
-                        Pleasegodsavemefromthishellscape['MW'] += 1
-                        if Pleasegodsavemefromthishellscape['MW'] == leni:
-                            print('10x Field-Tested ' + str(PrevPrice[up]['Field-Tested'][0][0]) + ' Turns into 1 Minimal Wear Skin From Case: ' + a)
-                elif 0.37 < avg <= 0.44:
-                    if (PrevPrice[up]['Well-Worn'][1] * 10) < (AllPrice[y][s]['Minimal Wear'] * 0.85):
-                        Pleasegodsavemefromthishellscape['MW'] += 1
-                        if Pleasegodsavemefromthishellscape['MW'] == leni:
-                            print('10x Well-Worn ' + str(PrevPrice[up]['Well-Worn'][0][0]) + ' Turns into 1 Minimal Wear Skin From Case: ' + a)
-                elif 0.44 < avg <= 1:
-                    if (PrevPrice[up]['Battle-Scarred'][1] * 10) < (AllPrice[y][s]['Minimal Wear'] * 0.85):
-                        Pleasegodsavemefromthishellscape['MW'] += 1
-                        if Pleasegodsavemefromthishellscape['MW'] == leni:
-                            print('10x Battle-Scarred ' + str(PrevPrice[up]['Battle-Scarred'][0][0]) + ' Turns into 1 Minimal Wear Skin From Case: ' + a)
-            if AllPrice[y][s]['Field-Tested'] != 0:
-                avg = (0.37 - float(FFloat))/(float(SFloat) - float(FFloat))
-                if 0.15 < avg <= 0.37:
-                    if (PrevPrice[up]['Field-Tested'][1] * 10) < (AllPrice[y][s]['Field-Tested'] * 0.85):
-                        Pleasegodsavemefromthishellscape['FT'] += 1
-                        if Pleasegodsavemefromthishellscape['FT'] == leni:
-                            print('10x Field-Tested ' + str(PrevPrice[up]['Field-Tested'][0][0]) + ' Turns into 1 Field-Tested Skin From Case: ' + a)
-                elif 0.37 < avg <= 0.44:
-                    if (PrevPrice[up]['Well-Worn'][1] * 10) < (AllPrice[y][s]['Field-Tested'] * 0.85):
-                        Pleasegodsavemefromthishellscape['FT'] += 1
-                        if Pleasegodsavemefromthishellscape['FT'] == leni:
-                            print('10x Well-Worn ' + str(PrevPrice[up]['Well-Worn'][0][0]) + ' Turns into 1 Field-Tested Skin From Case: ' + a)
-                elif 0.44 < avg <= 1:
-                    if (PrevPrice[up]['Battle-Scarred'][1] * 10) < (AllPrice[y][s]['Field-Tested'] * 0.85):
-                        Pleasegodsavemefromthishellscape['FT'] += 1
-                        if Pleasegodsavemefromthishellscape['FT'] == leni:
-                            print('10x Battle-Scarred ' + str(PrevPrice[up]['Battle-Scarred'][0][0]) + ' Turns into 1 Field-Tested Skin From Case: ' + a)
-            if AllPrice[y][s]['Well-Worn'] != 0:
-                avg = (0.44 - float(FFloat))/(float(SFloat) - float(FFloat))
-                if 0.37 < avg <= 0.44:
-                    if (PrevPrice[up]['Well-Worn'][1] * 10) < (AllPrice[y][s]['Well-Worn'] * 0.85):
-                        Pleasegodsavemefromthishellscape['WW'] += 1
-                        if Pleasegodsavemefromthishellscape['WW'] == len(AllPrice):
-                            print('10x Well-Worn ' + str(PrevPrice[up]['Well-Worn'][0][0]) + ' Turns into 1 Well-Worn Skin From Case: ' + a)
-                elif 0.44 < avg <= 1:
-                    if (PrevPrice[up]['Battle-Scarred'][1] * 10) < (AllPrice[y][s]['Well-Worn'] * 0.85):
-                        Pleasegodsavemefromthishellscape['WW'] += 1
-                        if Pleasegodsavemefromthishellscape['WW'] == leni:
-                            print('10x Battle-Scarred ' + str(PrevPrice[up]['Battle-Scarred'][0][0]) + ' Turns into 1 Well-Worn Skin From Case: ' + a)
-            if AllPrice[y][s]['Battle-Scarred'] != 0:
-                avg = (1 - float(FFloat))/(float(SFloat) - float(FFloat))
-                if 0.44 < avg <= 1:
-                    if (PrevPrice[up]['Battle-Scarred'][1] * 10) < (AllPrice[y][s]['Battle-Scarred'] * 0.85):
-                        Pleasegodsavemefromthishellscape['BS'] += 1
-                        if Pleasegodsavemefromthishellscape['BS'] == leni:
-                            print('10x Battle-Scarred ' + str(PrevPrice[up]['Battle-Scarred'][0][0]) + ' Turns into 1 Battle-Scarred Skin From Case: ' + a)
+            if float(FFloat) <= x <= float(SFloat):
+                LowPrice = s[1]
+                i = 0
+                for p in AllPrice[y]:
+                    OFloat = p[1].split(":")
+                    OFFloat = OFloat[0]
+                    OSFloat = OFloat[1]
+                    outputF = ((float(OSFloat) - float(OFFloat)) * x) + float(OFFloat)
+                    if 0 <= outputF <= 0.07:
+                        HighPrice = AllPrice[y][p]['Factory New']
+                        wear = "Factory New"
+                    elif 0.07 < outputF <= 0.15:
+                        HighPrice = AllPrice[y][p]['Minimal Wear']
+                        wear = "Minimal Wear"
+                    elif 0.15 < outputF <= 0.37:
+                        HighPrice = AllPrice[y][p]['Field-Tested']
+                        wear = "Field-Tested"
+                    elif 0.37 < outputF <= 0.44:
+                        HighPrice = AllPrice[y][p]['Well-Worn']
+                        wear = "Well-Worn"
+                    elif 0.44 < outputF <= 1:
+                        HighPrice = AllPrice[y][p]['Battle-Scarred']
+                        wear = "Battle-Scarred"
+                    if LowPrice * 10 < HighPrice * 0.85:
+                        continue
+                    else:
+                        i = 1
+                if i == 0:
+                    print("Skin" + str(s[0][0]) + " At Price " + str(cad(LowPrice)) + " At Wear " + str(x))
+                else:
+                    print("NO")
+
+
+
+
