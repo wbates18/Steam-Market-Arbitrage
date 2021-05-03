@@ -3,6 +3,7 @@ from currency_converter import CurrencyConverter
 import time
 import beepy
 import numpy
+import os
 c = CurrencyConverter()
 
 def cad(usd):
@@ -146,31 +147,36 @@ for a in CaseList: # Case
             elif FFloat == "Minimal Wear" and SFloat == "Field-Tested":
                 FloatRange = ["Minimal Wear", "Field-Tested"]
             for p in FloatRange:
+                time.sleep(5)
                 itemname = n[0] + " (" + p + ")"
                 url = "http://steamcommunity.com/market/priceoverview/?appid=730&currency=1&market_hash_name={}".format(itemname)
                 responce = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
                 if str(responce) == "<Response [429]>":
                     for x in range(0, 20):
                         beepy.beep(1)
-                    time.sleep(60)
+                    # time.sleep(25)
+                    # os.system("nordvpn c") For Linux only. VPN needs to be changed manually on mac and windows
+                    time.sleep(240)
                     responce = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
-                    pass
                 if str(responce) == "<Response [502]>":
                     continue
                 if str(responce) == "<Response [500]>":
                     continue
                 if responce == None:
                     continue
-                json = responce.json()
-                if json['success'] == False:
+                try:
+                    json = responce.json()
+                except:
                     Price = 10000
+                    continue
+                if str(json) == "{'success': True}":
+                    continue
                 elif 'median_price' not in json:
                     Price = str(json['lowest_price'].replace("$", ""))
                 elif 'lowest_price' not in json:
                     Price = str(json['median_price'].replace("$", ""))
                 else:
                     Price = str(json['median_price'].replace("$", ""))
-                time.sleep(5)
                 CurrentPrice = (float(Price), p)
                 AllPrice[i][n][p] = float(Price)
                 if CurrentPrice[0] < PrevPrice[i][p][1]:
@@ -179,6 +185,7 @@ for a in CaseList: # Case
                 elif CurrentPrice[0] > WorstPrice[i][p][1]:
                     WorstPrice[i][p][1] = CurrentPrice[0]
                     WorstPrice[i][p][0] = n
+    print(AllPrice)
     for y in AllPrice: # Rarity
         if y == "Restricted":
             up = "Mil-Spec"
@@ -199,7 +206,10 @@ for a in CaseList: # Case
                 upfloat = "Well-Worn"
             elif 0.44 < x <= 1:
                 upfloat = "Battle-Scarred"
-            s = PrevPrice[up][upfloat]
+            if PrevPrice[up][upfloat][1] != 10000 and PrevPrice[up][upfloat][1] != 0:
+                s = PrevPrice[up][upfloat]
+            else:
+                continue
             skin = s[0]
             Float = skin[1].split(":")
             FFloat = Float[0]
@@ -232,10 +242,6 @@ for a in CaseList: # Case
                     else:
                         i = 1
                 if i == 0:
-                    print("Skin" + str(s[0][0]) + " At Price " + str(cad(LowPrice)) + " At Wear " + str(x))
-                else:
-                    print("NO")
-
-
+                    print("Skin " + str(s[0][0]) + " At Price " + str(cad(LowPrice)) + " At Wear " + str(x))
 
 
