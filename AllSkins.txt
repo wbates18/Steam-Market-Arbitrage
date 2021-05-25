@@ -194,7 +194,7 @@ P2000 | Imperial Dragon - Classified - 0:0.63
 SCAR-20 | Bloodsport - Classified - 0:0.45
 M4A4 | Desolate Space - Classified - 0:1
 Glock-18 | Wasteland Rebel - Covert - 0:0.54
-M4A1-S | Mecha Industries - Covert - 0.8
+M4A1-S | Mecha Industries - Covert - 0:0.8
 !Gamma 2 Case
 Five-SeveN | Scumbria - Mil-Spec - 0:1
 G3SG1 | Ventilator - Mil-Spec - 0:0.45
@@ -671,7 +671,7 @@ FAMAS | Spitfire - Restricted - 0.06:0.8
 SCAR-20 | Emerald - Restricted - 0:0.08
 !Assault
 SG 553 | Tornado - Consumer - 0.06:0.8
-UMP-45 | Caramel - 0.06:0.8
+UMP-45 | Caramel - Consumer - 0.06:0.8
 Five-SeveN | Candy Apple - Industrial - 0:0.3
 Negev | Anodized Navy - Mil-Spec - 0:0.08
 AUG | Hot Rod - Mil-Spec - 0:0.08
@@ -693,7 +693,7 @@ SSG 08 | Sand Dune - Consumer - 0.06:0.8
 P2000 | Coach Class - Industrial - 0:1
 P90 | Leather - Industrial - 0:1
 SG 553 | Traveler - Industrial - 0:1
-MAC-10 | Commuter - Industrial - 0.1
+MAC-10 | Commuter - Industrial - 0:1
 Sawed-Off | First Class - Mil-Spec - 0:0.5
 XM1014 | Red Leather - Mil-Spec - 0:0.56
 USP-S | Business Class - Mil-Spec - 0:1
@@ -774,7 +774,7 @@ P90 | Storm - Consumer - 0.06:0.8
 UMP-45 | Indigo - Consumer - 0.06:0.8
 MAC-10 | Indigo - Consumer - 0.06:0.8
 Sawed-Off | Rust Coat - Industrial - 0:0.8
-Nova | Green Apple- Industrial - 0:0.3
+Nova | Green Apple - Industrial - 0:0.3
 MAG-7 | Silver - Industrial - 0:0.08
 USP-S | Royal Blue - Industrial - 0.06:0.8
 P2000 | Chainmail - Mil-Spec - 0:0.22
@@ -825,7 +825,7 @@ M4A1-S | Icarus Fell - Restricted - 0:0.1
 G3SG1 | Chronos - Restricted - 0:0.4
 M4A4 | Poseidon - Classified - 0:0.33
 AWP | Medusa - Covert - 0:1
-Inferno:
+!Inferno
 MAG-7 | Sand Dune - Consumer - 0.06:0.8
 Nova | Walnut - Consumer - 0.06:0.8
 P250 | Gunsmoke - Industrial - 0.06:0.8
