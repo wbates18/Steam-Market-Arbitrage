@@ -1,15 +1,15 @@
+# Discord bot gets data from all the files from the python scripts
+# sends links to discord server
+
 import os
 import discord
-import time
 from urllib.parse import quote
 
-# ('Galil AR | Chatterbox', '0.35:0.85')
-
 os.environ['TOKEN'] = "ODQwMDA0OTE0Nzk2NTYwNDE0.YJR5ig.Ju_-lhNIEECF9KaXLDrTmd3u4t0"
-client = discord.Client()
+client = discord.Client()  # sets up tokens and client
 
 
-def PrintResults(changeline):
+def PrintResults(changeline):  # uses params of the line that is outputed
     changeline[3] = changeline[3].strip("'")
     allUpSkins = changeline[3]
     res = allUpSkins.strip('][').split(', ')
@@ -17,17 +17,16 @@ def PrintResults(changeline):
     for i in range(0, len(res)):
         if (i % 2) == 0:
             print(res[i])
-            SkinList.append(eval((str(res[i]) + ", " + str(res[i + 1]))))
+            SkinList.append(eval((str(res[i]) + ", " + str(res[i + 1]))))  # string formatting, seperating wear, price, and skin
     AllList = []
     print(SkinList)
     Namelist = []
     for x in SkinList:
-        print("printed twice")
         FloatRange = []
         Float = x[1].split(":")
         FFloat = Float[0]
         SFloat = Float[1]
-        if 0 <= float(FFloat) <= 0.07:
+        if 0 <= float(FFloat) <= 0.07:  # getting floats and ranges
             FFloat = "Factory New"
         else:
             if 0.07 < float(FFloat) <= 0.15:
@@ -85,9 +84,9 @@ def PrintResults(changeline):
             FloatRange = ["Well-Worn"]
         elif FFloat == "Minimal Wear" and SFloat == "Field-Tested":
             FloatRange = ["Minimal Wear", "Field-Tested"]
-        for a in FloatRange:
+        for a in FloatRange:  # getting the links used to send to the discord server
             itemname = str(x[0]) + " (" + str(a) + ")"
-            link = quote("https://steamcommunity.com/market/listings/730/{}".format(itemname), safe=":'/")
+            link = quote("https://steamcommunity.com/market/listings/730/{}".format(itemname), safe=":'/") # encodes everything but : and /
             AllList.append(link)
             Namelist.append(str(x[0]) + " (" + str(a) + ")")
     FloatRange = []
@@ -152,12 +151,12 @@ def PrintResults(changeline):
         FloatRange = ["Well-Worn"]
     elif FFloat == "Minimal Wear" and SFloat == "Field-Tested":
         FloatRange = ["Minimal Wear", "Field-Tested"]
-    for a in FloatRange:
+    for a in FloatRange: # getting base skin links
         link = quote(
             "https://steamcommunity.com/market/listings/730/{}".format(str(changeline[0]) + " (" + str(a) + ")"),
             safe=":'/")
         AllList.insert(0, link)
-        Namelist.insert(0, str(changeline[0]) + " (" + str(a) + ")")
+        Namelist.insert(0, str(changeline[0]) + " (" + str(a) + ")")  # inserting into name file, so it can show up with embeded link
     linkstring = ""
     linkstringbase = ""
     templine = str(changeline[0]).replace(" ", "%20")
@@ -169,15 +168,15 @@ def PrintResults(changeline):
             linkstring = "[" + Namelist[AllList.index(l)] + "]" + "(" + str(l) + ")" + "\n" + linkstring
     embed = discord.Embed(title="Trade Up Found")
     embed.add_field(name="Base Skin x10", value=linkstringbase)
-    embed.add_field(name="All Possibilities", value=linkstring)
+    embed.add_field(name="All Possibilities", value=linkstring)  # returns embeded links with the name of the skin as what is displayed.
     return embed
 
 
 
 
 @client.event
-async def on_ready():
-    channel = client.get_channel(838897099440783370)
+async def on_ready():  # when the bot starts, basically a while loop
+    channel = client.get_channel(838897099440783370)  # channel it is set to be in.
     StLength = -1
     ColLength = -1
     RegLength = -1
@@ -187,13 +186,13 @@ async def on_ready():
         for line in Lines:
             if line != "\n":
                 line_count = Lines.index(line)
-                if StLength < line_count:
+                if StLength < line_count:  # if new line
                     StLength = line_count
                     print(line.strip("\n"))
                     line = line.strip("\n")
                     changeline = line.split(" - ")
-                    embed = PrintResults(changeline)
-                    await channel.send(embed=embed)
+                    embed = PrintResults(changeline)  # send info and get embeded links returned
+                    await channel.send(embed=embed) # send embed ----- SAME BELOW, just has to be different because they are all independent.
         Col = open("ProfitFileCL.txt", 'r')
         Lines1 = Col.readlines()
         for line1 in Lines1:

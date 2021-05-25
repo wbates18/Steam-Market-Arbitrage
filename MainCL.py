@@ -1,3 +1,5 @@
+# Same as MainST but has two more rarites. No other differences, not going to comment it.
+
 import requests
 import time
 import numpy
