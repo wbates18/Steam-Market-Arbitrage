@@ -1,18 +1,20 @@
 # Discord bot gets data from all the files from the python scripts
 # sends links to discord server
-
+import pyshorteners
 import os
 import discord
 from urllib.parse import quote
 
 os.environ['TOKEN'] = "ODQwMDA0OTE0Nzk2NTYwNDE0.YJR5ig.Ju_-lhNIEECF9KaXLDrTmd3u4t0"
 client = discord.Client()  # sets up tokens and client
+access = pyshorteners.Shortener(api_key='2da05f710ff19227d5a28c0f99fd653dae6b8636')
 
 
 def PrintResults(changeline):  # uses params of the line that is outputed
     changeline[3] = changeline[3].strip("'")
     allUpSkins = changeline[3]
     res = allUpSkins.strip('][').split(', ')
+    print(res)
     SkinList = []
     for i in range(0, len(res)):
         if (i % 2) == 0:
@@ -22,8 +24,10 @@ def PrintResults(changeline):  # uses params of the line that is outputed
     print(SkinList)
     Namelist = []
     for x in SkinList:
+        Skin = x.split(", ")
+        print(Skin)
         FloatRange = []
-        Float = x[1].split(":")
+        Float = Skin[1].split(":")
         FFloat = Float[0]
         SFloat = Float[1]
         if 0 <= float(FFloat) <= 0.07:  # getting floats and ranges
@@ -54,7 +58,7 @@ def PrintResults(changeline):  # uses params of the line that is outputed
                     else:
                         if 0.44 < float(SFloat) <= 1:
                             SFloat = "Battle-Scarred"
-        if FFloat == "Factory New" and SFloat == "Battle-Scarred":
+        if FFloat == "Factory New" and SFloat == "Battle-Scarred":  # getting all wears in range
             FloatRange = ["Factory New", "Minimal Wear", "Field-Tested", "Well-Worn", "Battle-Scarred"]
         elif FFloat == "Minimal Wear" and SFloat == "Battle-Scarred":
             FloatRange = ["Minimal Wear", "Field-Tested", "Well-Worn", "Battle-Scarred"]
@@ -85,10 +89,10 @@ def PrintResults(changeline):  # uses params of the line that is outputed
         elif FFloat == "Minimal Wear" and SFloat == "Field-Tested":
             FloatRange = ["Minimal Wear", "Field-Tested"]
         for a in FloatRange:  # getting the links used to send to the discord server
-            itemname = str(x[0]) + " (" + str(a) + ")"
-            link = quote("https://steamcommunity.com/market/listings/730/{}".format(itemname), safe=":'/") # encodes everything but : and /
+            itemname = str(Skin[0]) + " (" + str(a) + ")"
+            link = access.bitly.short(quote("https://steamcommunity.com/market/listings/730/{}".format(itemname), safe=":'/")) # encodes everything but : and /
             AllList.append(link)
-            Namelist.append(str(x[0]) + " (" + str(a) + ")")
+            Namelist.append(str(Skin[0]) + " (" + str(a) + ")")
     FloatRange = []
     Float = changeline[2].split(":")
     FFloat = Float[0]
@@ -161,7 +165,7 @@ def PrintResults(changeline):  # uses params of the line that is outputed
     linkstringbase = ""
     templine = str(changeline[0]).replace(" ", "%20")
     templine = templine.replace("|", "%7C")
-    for l in AllList:
+    for l in AllList:  # setting all links into discord message
         if templine in l:
             linkstringbase = "[" + Namelist[AllList.index(l)] + "]" + "(" + str(l) + ")" + "\n" + linkstringbase
         else:

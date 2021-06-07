@@ -1,5 +1,4 @@
-# Same as MainST but has two more rarites. No other differences, not going to comment it.
-
+#Comments for all python files in MainSt.py
 import requests
 import time
 import numpy
@@ -259,7 +258,8 @@ for a in CaseList: # Case
             up = "Consumer"
         elif y == "Consumer":
             continue
-        for x in numpy.arange(0.01, 1.01, 0.01): # 100 times
+        for x in numpy.arange(0.01, 1.01, 0.01):  # 100 times  # Wears go from 0-1, 0.01 accuracy.
+            x = round(x, 2)
             if 0 <= x <= 0.07:
                 upfloat = "Factory New"
             elif 0.07 < x <= 0.15:
@@ -270,53 +270,61 @@ for a in CaseList: # Case
                 upfloat = "Well-Worn"
             elif 0.44 < x <= 1:
                 upfloat = "Battle-Scarred"
-            if PrevPrice[up][upfloat][1] != 10000 and PrevPrice[up][upfloat][1] != 0 and PrevPrice[up][upfloat][1] <= 20:
-                s = PrevPrice[up][upfloat]
+            if PrevPrice[up][upfloat][1] != 10000 and PrevPrice[up][upfloat][1] != 0:
+                s = PrevPrice[up][upfloat]  # skin of cheapest price per rarity per wear
             else:
                 continue
             skin = s[0]
             Float = skin[1].split(":")
             FFloat = Float[0]
             SFloat = Float[1]
-            if float(FFloat) <= x <= float(SFloat):
-                LowPrice = s[1]
+            if float(FFloat) <= x <= float(SFloat):  # getting float and if it is in the range.
                 i = 0
                 CurrentLowest = [100000, ""]
-                currentskin = ["", 0, 0]
+                if o == 0:
+                    currentskin = [str(s[0][0]), 0, 0]  # current skin gets set for easy output
+                    LowPrice = s[1]
+                    o = 1
                 AllSkinList = []
-                for p in AllPrice[y]:
+                for p in AllPrice[
+                    y]:  # for skin in output rarity. They all have to be more expensive than input skins or else it isn't 100% profit.
                     OFloat = p[1].split(":")
                     OFFloat = OFloat[0]
                     OSFloat = OFloat[1]
-                    outputF = ((float(OSFloat) - float(OFFloat)) * x) + float(OFFloat)
-                    if 0 <= outputF <= 0.07:
+                    outputF = ((float(OSFloat) - float(OFFloat)) * x) + float(
+                        OFFloat)  # Trade Up Algorithm. Output float = highest output float range - lowest output float range * float + lowest.
+                    if 0 <= outputF <= 0.07:  # getting wears and prices
                         HighPrice = AllPrice[y][p]['Factory New']
                         wear = "Factory New"
+                        skin1 = (p[0] + "," + " 0:0.07")
                     elif 0.07 < outputF <= 0.15:
                         HighPrice = AllPrice[y][p]['Minimal Wear']
                         wear = "Minimal Wear"
+                        skin1 = (p[0] + "," + " 0.08:0.15")
                     elif 0.15 < outputF <= 0.37:
                         HighPrice = AllPrice[y][p]['Field-Tested']
                         wear = "Field-Tested"
+                        skin1 = (p[0] + "," + " 0.16:0.38")
                     elif 0.37 < outputF <= 0.44:
                         HighPrice = AllPrice[y][p]['Well-Worn']
                         wear = "Well-Worn"
+                        skin1 = (p[0] + "," + " 0.39:0.45")
                     elif 0.44 < outputF <= 1:
                         HighPrice = AllPrice[y][p]['Battle-Scarred']
                         wear = "Battle-Scarred"
-                    if ((LowPrice * 10) + PriceVar) < (HighPrice * 0.85):
+                        skin1 = (p[0] + "," + " 0.46:1")
+                    if ((LowPrice * 10) + PriceVar) < (HighPrice * 0.85):  # if the skin works
                         if HighPrice * 0.85 < CurrentLowest[0]:
                             CurrentLowest[0] = HighPrice * 0.85
                             CurrentLowest[1] = p
-                        AllSkinList.append(p)
+                        AllSkinList.append(skin1)
                         continue
-                    else:
+                    else:  # it doesn't work, so the whole rarity is not profit.
                         i = 1
-                if i == 0:
-                    if currentskin[0] == str(s[0][0]) or currentskin[0] == "":
+                if i == 0:  # if that rarity works
+                    if currentskin[0] == str(s[0][0]) or currentskin[0] == "":  # if the rarity isn't done
                         continue
-                    else:
-                        print(AllSkinList)
+                    else:  # Append to text file and send to discord bot
                         currentskin[2] = (x - 0.01)
                         ProfitA = open("ProfitFileST.txt", "a")
                         ProfitA.write(

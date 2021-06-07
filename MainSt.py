@@ -1,8 +1,8 @@
 # MainST and Main are basically the same, just executed after one another.
 # MainST will have the comments
-# most of MainCL is the same, but I will comment the differences in there.
+# most of MainCL is the same, but I will comment the differences in here.
 
-
+# https://www.youtube.com/watch?v=1I-hwnrEMKA&ab_channel=TrilluXe - Explaination of general concept
 
 
 # In these files there are 3 steps: Formatting the text file for use, fetching the current prices,
@@ -42,6 +42,7 @@ R = {}
 M = {}
 CaseList = []
 # This block formats the text file for use
+# You can look at AllSkins.txt for the file it is formatting.
 # r is all the lines in the file, and the start of a dataset starts with a ?. We are only looking at cases
 # in this file, so after cases, it breaks.
 # Then for every case it appends it to a list and creates a dictionary to hold all of the rarities.
@@ -50,7 +51,7 @@ for x in r:
         Cases = {}
         y = 0
 
-    if "?Collections" in x:
+    if "?Collections" in x:  # For mainCL.py, this would be flipped from the cases section
         break
 
     if '!' in x:
@@ -69,7 +70,7 @@ for x in r:
         if "Mil-Spec" in x:
             Rarity = "Mil-Spec"
             if M[TempCase] != 1:
-                Cases[TempCase][Rarity] = []
+                Cases[TempCase][Rarity] = []  # Adding all the rarities to the case list
                 M[TempCase] = 1
         elif "Restricted" in x:
             Rarity = "Restricted"
@@ -90,15 +91,17 @@ for x in r:
         Float = Float1[2].replace("\n", "")  # seperating the floats from the skin and appending them into a tuple next to the skin.
         Skin = Float1[0]
         SkinF = (Skin, Float)
-        Cases[TempCase][Rarity].append(SkinF)
+        Cases[TempCase][Rarity].append(SkinF)  # appending skin and float to dict
 
-CaseListConfirm = []  # This next part is fetching the prices. We have already formatted all of the data at this point.
+# This next part is fetching the prices. We have already formatted all of the data at this point. - This is the second part
+CaseListConfirm = []
 for a in CaseList: # Case
     print(a)
     PrevPrice = {}
-    WorstPrice = {}
+    WorstPrice = {}  # Setting all the dictionaries
     AllPrice = {}
     for i in Cases[a]: # Rarity
+        print(i)
         AllPrice[i] = {}
         WorstPrice[i] = {'Factory New': ["", 0], 'Minimal Wear': ["", 0], 'Field-Tested': ["", 0], 'Well-Worn': ["", 0], 'Battle-Scarred': ["", 0]}  # Setting default prices in dicts.
         PrevPrice[i] = {'Factory New': ["", 10000], 'Minimal Wear': ["", 10000], 'Field-Tested': ["", 10000], 'Well-Worn': ["", 10000], 'Battle-Scarred': ["", 10000]}
@@ -108,7 +111,7 @@ for a in CaseList: # Case
             Float = n[1].split(":")  # Getting float range
             FFloat = Float[0]
             SFloat = Float[1]
-            if 0 <= float(FFloat) <= 0.07:  # Getting start and end wears
+            if 0 <= float(FFloat) <= 0.07:  # Getting start and end wears from float to string - using ranges from intro video
                 FFloat = "Factory New"
             else:
                 if 0.07 < float(FFloat) <= 0.15:
@@ -136,7 +139,7 @@ for a in CaseList: # Case
                         else:
                             if 0.44 < float(SFloat) <= 1:
                                 SFloat = "Battle-Scarred"
-            if FFloat == "Factory New" and SFloat == "Battle-Scarred":  # Getting range and putting it into list
+            if FFloat == "Factory New" and SFloat == "Battle-Scarred":  # Getting range and putting it into list - A bit unorganized
                 FloatRange = ["Factory New", "Minimal Wear", "Field-Tested", "Well-Worn", "Battle-Scarred"]
             elif FFloat == "Minimal Wear" and SFloat == "Battle-Scarred":
                 FloatRange = ["Minimal Wear", "Field-Tested", "Well-Worn", "Battle-Scarred"]
@@ -211,22 +214,21 @@ for a in CaseList: # Case
                     else:
                         Price = float(median) 
                 if "," in str(Price):
-                    Price = cad(Price.replace(",", ""))
+                    Price = cad(Price.replace(",", ""))  # Converting into canadian
                 else:
                     Price = cad(Price)
                 CurrentPrice = (float(Price), p)  # Getting lowest price for each wear of each rarity.
                 AllPrice[i][n][p] = float(Price)
-                if CurrentPrice[0] < PrevPrice[i][p][1]:
+                if CurrentPrice[0] < PrevPrice[i][p][1]:  # Using algorithm such as max(), min(), but with a for loop
                     PrevPrice[i][p][1] = CurrentPrice[0]
                     PrevPrice[i][p][0] = n
                 elif CurrentPrice[0] > WorstPrice[i][p][1]:
                     WorstPrice[i][p][1] = CurrentPrice[0]
                     WorstPrice[i][p][0] = n
 
-
     for y in AllPrice: # Last Step, analysing prices
-        if y == "Restricted":  # Getting rarity and one below it.
-            up = "Mil-Spec"
+        if y == "Restricted":  # Getting rarity and one below it - which will need ten to go up to y
+            up = "Mil-Spec"  #Rarity that will be upgraded from
         elif y == "Classified":
             up = "Restricted"
         elif y == "Covert":
@@ -234,8 +236,8 @@ for a in CaseList: # Case
         elif y == "Mil-Spec":
             continue
         o = 0
-        for x in numpy.arange(0.01, 1.01, 0.01): # 100 times  # Wears go from 0-1, 0.01 accuracy.
-            x = round(x, 2)
+        for x in numpy.arange(0.01, 1.01, 0.01): # 100 times  # Wears go from 0-1, 0.01 accuracy. - could be more accurate, but unneccisary
+            x = round(x, 2)  # Sometimes the numpy outputs 0.15999999999 as 0.16, just rounds it accuratly.
             if 0 <= x <= 0.07:
                 upfloat = "Factory New"
             elif 0.07 < x <= 0.15:
@@ -246,12 +248,12 @@ for a in CaseList: # Case
                 upfloat = "Well-Worn"
             elif 0.44 < x <= 1:
                 upfloat = "Battle-Scarred"
-            if PrevPrice[up][upfloat][1] != 10000 and PrevPrice[up][upfloat][1] != 0:
+            if PrevPrice[up][upfloat][1] != 10000 and PrevPrice[up][upfloat][1] != 0:  # If there is a price for the rarity of a certain condition
                 s = PrevPrice[up][upfloat]  # skin of cheapest price per rarity per wear
             else:
                 continue
             skin = s[0]
-            Float = skin[1].split(":")
+            Float = skin[1].split(":")  # Getting floats range of output skins
             FFloat = Float[0]
             SFloat = Float[1]
             if float(FFloat) <= x <= float(SFloat):  # getting float and if it is in the range.
@@ -270,31 +272,35 @@ for a in CaseList: # Case
                     if 0 <= outputF <= 0.07:  # getting wears and prices
                         HighPrice = AllPrice[y][p]['Factory New']
                         wear = "Factory New"
+                        skin1 = (p[0] + "," +  " 0:0.07")  # Formatting for skin output to discord bot
                     elif 0.07 < outputF <= 0.15:
                         HighPrice = AllPrice[y][p]['Minimal Wear']
                         wear = "Minimal Wear"
+                        skin1 = (p[0] + "," +  " 0.08:0.15")
                     elif 0.15 < outputF <= 0.37:
                         HighPrice = AllPrice[y][p]['Field-Tested']
                         wear = "Field-Tested"
+                        skin1 = (p[0] + "," +  " 0.16:0.38")
                     elif 0.37 < outputF <= 0.44:
                         HighPrice = AllPrice[y][p]['Well-Worn']
                         wear = "Well-Worn"
+                        skin1 = (p[0] + "," +  " 0.39:0.45")
                     elif 0.44 < outputF <= 1:
                         HighPrice = AllPrice[y][p]['Battle-Scarred']
                         wear = "Battle-Scarred"
-                    if ((LowPrice * 10) + PriceVar) < (HighPrice * 0.85):  # if the skin works
-                        if HighPrice * 0.85 < CurrentLowest[0]:
+                        skin1 = (p[0] + "," +  " 0.46:1")
+                    if ((LowPrice * 10) + PriceVar) < (HighPrice * 0.85):  # if the 10 input skins are cheaper than that 1 output skin + steam tax
+                        if HighPrice * 0.85 < CurrentLowest[0]:  # The cheapest / least profitable.
                             CurrentLowest[0] = HighPrice * 0.85
                             CurrentLowest[1] = p
-                        AllSkinList.append(p)
+                        AllSkinList.append(skin1)  # Appends to output list for discord bot
                         continue
-                    else: # it doesn't work, so the whole rarity is not profit.
+                    else: # it doesn't work, so the whole rarity is not profit - because it isn't 100% guarinteed profit.
                         i = 1
                 if i == 0: # if that rarity works
                     if currentskin[0] == str(s[0][0]) or currentskin[0] == "": # if the rarity isn't done
                         continue
-                    else: # Append to text file and send to discord bot
-                        print(AllSkinList)
+                    else:  # Append to text file and send to discord bot
                         currentskin[2] = (x - 0.01)
                         ProfitA = open("ProfitFileST.txt", "a")
                         ProfitA.write(str(currentskin[0]) + " - " + str(LowPrice) + " - " + str(currentskin[1]) + ":" + str(currentskin[2]) + " - " + str(AllSkinList) + "\n")
