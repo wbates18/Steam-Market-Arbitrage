@@ -243,6 +243,7 @@ for a in CaseList: # Case
                     WorstPrice[i][p][1] = CurrentPrice[0]
                     WorstPrice[i][p][0] = n
     for y in AllPrice: # Rarity
+        o = 0
         if y == "Restricted":
             up = "Mil-Spec"
         elif y == "Classified":

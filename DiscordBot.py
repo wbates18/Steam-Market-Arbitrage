@@ -32,32 +32,26 @@ def PrintResults(changeline):  # uses params of the line that is outputed
         SFloat = Float[1]
         if 0 <= float(FFloat) <= 0.07:  # getting floats and ranges
             FFloat = "Factory New"
-        else:
-            if 0.07 < float(FFloat) <= 0.15:
-                FFloat = "Minimal Wear"
-            else:
-                if 0.15 < float(FFloat) <= 0.37:
-                    FFloat = "Field-Tested"
-                else:
-                    if 0.37 < float(FFloat) <= 0.44:
-                        FFloat = "Well-Worn"
-                    else:
-                        if 0.44 < float(FFloat) <= 1:
-                            FFloat = "Battle-Scarred"
+        elif 0.07 < float(FFloat) <= 0.15:
+            FFloat = "Minimal Wear"
+        elif 0.15 < float(FFloat) <= 0.37:
+            FFloat = "Field-Tested"
+        elif 0.37 < float(FFloat) <= 0.44:
+             FFloat = "Well-Worn"
+        elif 0.44 < float(FFloat) <= 1:
+            FFloat = "Battle-Scarred"
+
         if 0 <= float(SFloat) <= 0.07:
             SFloat = "Factory New"
-        else:
-            if 0.07 < float(SFloat) <= 0.15:
-                SFloat = "Minimal Wear"
-            else:
-                if 0.15 < float(SFloat) <= 0.37:
-                    SFloat = "Field-Tested"
-                else:
-                    if 0.37 < float(SFloat) <= 0.44:
-                        SFloat = "Well-Worn"
-                    else:
-                        if 0.44 < float(SFloat) <= 1:
-                            SFloat = "Battle-Scarred"
+        elif 0.07 < float(SFloat) <= 0.15:
+            SFloat = "Minimal Wear"
+        elif 0.15 < float(SFloat) <= 0.37:
+            SFloat = "Field-Tested"
+        elif 0.37 < float(SFloat) <= 0.44:
+            SFloat = "Well-Worn"
+        elif 0.44 < float(SFloat) <= 1:
+            SFloat = "Battle-Scarred"
+
         if FFloat == "Factory New" and SFloat == "Battle-Scarred":  # getting all wears in range
             FloatRange = ["Factory New", "Minimal Wear", "Field-Tested", "Well-Worn", "Battle-Scarred"]
         elif FFloat == "Minimal Wear" and SFloat == "Battle-Scarred":
@@ -172,7 +166,8 @@ def PrintResults(changeline):  # uses params of the line that is outputed
             linkstring = "[" + Namelist[AllList.index(l)] + "]" + "(" + str(l) + ")" + "\n" + linkstring
     embed = discord.Embed(title="Trade Up Found")
     embed.add_field(name="Base Skin x10", value=linkstringbase)
-    embed.add_field(name="All Possibilities", value=linkstring)  # returns embeded links with the name of the skin as what is displayed.
+    embed.add_field(name="All Possibilities", value=linkstring)
+    embed.add_field(name="Ping", value="@Willow#3736")  # returns embeded links with the name of the skin as what is displayed.
     return embed
 
 

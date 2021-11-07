@@ -4,6 +4,7 @@ import requests
 import time
 import numpy
 import os
+
 PriceVar = 0
 
 responce = requests.get("https://free.currconv.com/api/v7/convert?q=USD_CAD&compact=ultra&apiKey=1b936271ddaf83ca1429")
@@ -15,7 +16,7 @@ def cad(usd):
     cad = round(cad, 2)
     return cad
 
-
+o = 0
 
 StatrakConst = "StatTrak%E2%84%A2"
 
@@ -219,6 +220,7 @@ for a in CaseList: # Case
             up = "Classified"
         elif y == "Mil-Spec":
             continue
+        o = 0
         for x in numpy.arange(0.01, 1.01, 0.01):  # 100 times  # Wears go from 0-1, 0.01 accuracy.
             x = round(x, 2)
             if 0 <= x <= 0.07:
@@ -247,8 +249,7 @@ for a in CaseList: # Case
                     LowPrice = s[1]
                     o = 1
                 AllSkinList = []
-                for p in AllPrice[
-                    y]:  # for skin in output rarity. They all have to be more expensive than input skins or else it isn't 100% profit.
+                for p in AllPrice[y]:  # for skin in output rarity. They all have to be more expensive than input skins or else it isn't 100% profit.
                     OFloat = p[1].split(":")
                     OFFloat = OFloat[0]
                     OSFloat = OFloat[1]
