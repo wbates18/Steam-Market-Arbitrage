@@ -1,4 +1,22 @@
 ?Cases
+!Dreams & Nightmares Case
+MAG-7 | Foresight - Mil-Spec - 0:0.7
+Sawed-Off | Spirit Board - Mil-Spec - 0:1
+P2000 | Lifted Spirits - Mil-Spec - 0:1
+SCAR-20 | Poultrygeist - Mil-Spec - 0:0.57
+MAC-10 | Ensnared - Mil-Spec - 0:0.9
+Five-SeveN | Scrawl - Mil-Spec - 0:1
+MP5-SD | Necro Jr. - Mil-Spec - 0:1
+XM1014 | Zombie Offensive - Restricted - 0:0.5
+G3SG1 | Dream Glade - Restricted - 0:1
+PP-Bizon | Space Cat - Restricted - 0:0.67
+USP-S | Ticket to Hell - Restricted - 0:0.76
+M4A1-S | Night Terror - Restricted - 0:0.7
+FAMAS | Rapid Eye Movement - Classified - 0:1
+MP7 | Abyssal Apparition - Classified - 0:1
+Dual Berettas | Melondrama - Classified - 0:1
+MP9 | Starlight Protector - Covert - 0:0.8
+AK-47 | Nightwish - Covert - 0:1
 !Operation Riptide Case
 G3SG1 | Keeping Tabs - Mil-Spec - 0:0.7
 Dual Berettas | Tread - Mil-Spec - 0:1

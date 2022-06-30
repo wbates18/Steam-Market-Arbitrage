@@ -11,6 +11,9 @@ import requests
 import time
 import numpy  # Importing all packages
 import os
+
+
+OS = input("Input OS:")
 PriceVar = 0
 
 # getting currency converter data
@@ -174,17 +177,22 @@ for a in CaseList: # Case
                 itemname = StatrakConst + " " + n[0] + " (" + p + ")"  # This has StatrakConst in only MainSt.
                 url = "http://steamcommunity.com/market/priceoverview/?appid=730&currency=1&market_hash_name={}".format(itemname)
                 responce = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})  # Getting request from market
-                while str(responce) == "<Response [429]>":  # If it 429 errors (Too many requests), change the vpn to get around it.
-                    time.sleep(10)
-                    print("Disconnecting from vpn")
-                    os.system("nordvpn d")
-                    time.sleep(2)
-                    print("connecting to different vpn")
-                    os.system("nordvpn c") # For Linux only. VPN needs to be changed manually on mac and windows
-                    time.sleep(10)
-                    responce = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
-                    print(responce)
-                    print("vpn change success if above is 200")
+                while str(responce) == "<Response [429]>":# If it 429 errors (Too many requests), change the vpn to get around it.
+                    if OS == "mac" or OS == "windows":
+                        temp = input("Different IP?")
+                        responce = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
+                        print(responce)
+                    else:
+                        time.sleep(10)
+                        print("Disconnecting from vpn")
+                        os.system("protonvpn-cli d")
+                        time.sleep(2)
+                        print("connecting to different vpn")
+                        os.system("protonvpn-cli c") # For Linux only. VPN needs to be changed manually on mac and windows
+                        time.sleep(10)
+                        responce = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
+                        print(responce)
+                        print("vpn change success if above is 200")
                 if str(responce) == "<Response [502]>":  # Other errors, sometimes happens if none in stock, just continue
                     continue
                 if str(responce) == "<Response [500]>":

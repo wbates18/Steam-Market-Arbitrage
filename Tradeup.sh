@@ -1,9 +1,8 @@
- shellcheck disable=SC1073
+#!/bin/bash
+python3.9 DiscordBot.py
 while true; do
-  python3 DiscordBot.py
-  python3 MainSt.py
-  python3 MainCL.py
-  python3 Main.py
-  pkill python3
+  python3.9 MainSt.py
+  python3.9 MainCL.py
+  python3.9 Main.py
   sleep 2m
 done
