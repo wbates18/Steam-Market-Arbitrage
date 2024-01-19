@@ -5,9 +5,9 @@ import os
 import discord
 from urllib.parse import quote
 
-os.environ['TOKEN'] = "ODQwMDA0OTE0Nzk2NTYwNDE0.YJR5ig.Ju_-lhNIEECF9KaXLDrTmd3u4t0"
+os.environ['TOKEN'] = ""
 client = discord.Client()  # sets up tokens and client
-access = pyshorteners.Shortener(api_key='2da05f710ff19227d5a28c0f99fd653dae6b8636')
+access = pyshorteners.Shortener(api_key='')
 
 
 def PrintResults(changeline):  # uses params of the line that is outputed
