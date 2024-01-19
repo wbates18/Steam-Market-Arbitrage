@@ -167,7 +167,7 @@ def PrintResults(changeline):  # uses params of the line that is outputed
     embed = discord.Embed(title="Trade Up Found")
     embed.add_field(name="Base Skin x10", value=linkstringbase)
     embed.add_field(name="All Possibilities", value=linkstring)
-    embed.add_field(name="Ping", value="@Willow#3736")  # returns embeded links with the name of the skin as what is displayed.
+    embed.add_field(name="Ping", value="")  # returns embeded links with the name of the skin as what is displayed.
     return embed
 
 
@@ -175,7 +175,7 @@ def PrintResults(changeline):  # uses params of the line that is outputed
 
 @client.event
 async def on_ready():  # when the bot starts, basically a while loop
-    channel = client.get_channel(838897099440783370)  # channel it is set to be in.
+    channel = client.get_channel()  # channel it is set to be in.
     StLength = -1
     ColLength = -1
     RegLength = -1
