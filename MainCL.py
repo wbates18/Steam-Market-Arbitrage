@@ -8,7 +8,7 @@ OS = input("Input OS:")
 
 PriceVar = 0
 
-responce = requests.get("https://free.currconv.com/api/v7/convert?q=USD_CAD&compact=ultra&apiKey=1b936271ddaf83ca1429")
+responce = requests.get("https://free.currconv.com/api/v7/convert?q=USD_CAD&compact=ultra&apiKey=")
 CadConst = responce.json()
 CadConst = CadConst['USD_CAD']
 
