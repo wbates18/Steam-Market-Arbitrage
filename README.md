@@ -6,3 +6,9 @@ Script designed to scrape cost of all csgo skins from market and calculate if in
 
 ## Usage
 
+Set API keys for currency conversion in each of the main files, set up discord API in discordbot.py, and use:
+```
+chmod +x Tradeup.sh
+./Tradeup.sh
+```
+Make sure that a vpn is set up on the device and it is CLI manageable, with it configured in each main file correctly.
