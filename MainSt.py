@@ -17,7 +17,7 @@ OS = input("Input OS:")
 PriceVar = 0
 
 # getting currency converter data
-responce1 = requests.get("https://v6.exchangerate-api.com/v6/a4ddeb3abd17d84802e2007d/latest/USD")
+responce1 = requests.get("https://v6.exchangerate-api.com/v6//latest/USD")
 CadConst = responce1.json()
 print(CadConst)
 CadConst = CadConst['conversion_rates']['CAD']
